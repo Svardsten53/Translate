@@ -10,7 +10,7 @@ cd ~/BirdNET-Pi
 mv Translate Translate_old && echo "Translate folder renamed"
 
 # Download and extract Translate.zip
-wget -O Translate.zip "https://svardsten.com/birdnetpi/nachtzuster/germany/Translate.zip" && unzip -o Translate.zip && rm Translate.zip
+wget -O Translate.zip "wget https://raw.githubusercontent.com/Svardsten53/Translate/main/germany/Translate.zip" && unzip -o Translate.zip && rm Translate.zip
 echo "Translate.zip downloaded, extracted, and removed"
 
 # Set permissions
