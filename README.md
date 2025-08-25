@@ -22,6 +22,4 @@ Translations into other languages have been made with AI and will likely require
 
 A Translate folder is downloaded locally and contains all files, commands, and necessary tools, so that you can make changes and run the routine locally if needed. If you use this folder, the program with updates is still downloaded, but the customization routine itself is not updated.
 
-### **Contact Me**
-
-If you have questions or would like to contribute, do not hesitate to contact me via \[link to your email or social media profile\].
+Please read more in the information files listed above.
