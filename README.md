@@ -1,3 +1,10 @@
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/60325264/140656397-bf76bad4-f110-467c-897d-992ff0f96476.png" />
+</p>
+<p align="center">
+Icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+</p>
+
 # **BirdNET-Pi: Language Customization and Personalized Presentation**
 
 Ever since I started using BirdNET-Pi several years ago, I have adapted the appearance to my own wishes. One of the most important customizations has been to have the different pages in my own language. I have shared this adaptation with others in Sweden, and now I have further developed it so that a single command is all that is needed to do everything required to customize BirdNET-Pi. Perhaps more people are interested?
