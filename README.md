@@ -23,10 +23,10 @@ All that is required is for you to run a single command the first time. After th
 
 The update only takes 30-45 seconds. The entire installation is downloaded again with each update (git pull \-f is specified), and then it is modified from scratch, with the exception of the index.php file and some other custom files.
 
-### **Contributing**
-
 Translations into other languages have been made with AI and will likely require some adjustments. I hope that a volunteer from each country can help with this.
 
 A Translate folder is downloaded locally and contains all files, commands, and necessary tools, so that you can make changes and run the routine locally if needed. If you use this folder, the program with updates is still downloaded, but the customization routine itself is not updated.
+
+### **Contributing**
 
 Please read more in the information files listed above.
