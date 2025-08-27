@@ -43,7 +43,7 @@ cp -n ~/BirdNET-Pi/Translate_old/skript/* ~/BirdNET-Pi/Translate/skript/ && echo
 
 # Anpassa skript med aktuell användare
 cd Translate/skript
-sudo sed -i "s|/home/userid-att-ändra|$HOME|g" 2_backuporg.sh 5_kopieraegna.sh 3_restoreorg.sh 6_backupegna.sh 7_translate.sh 8_restoreegna.sh
+sudo sed -i "s|/home/userid-att-ändra|$HOME|g" 2_backuporg.sh 5_kopieraegna.sh 3_restoreorg.sh 6_backupegna.sh 7_translate.sh 8_restoreegna.sh replace.php
 echo "Aktuell systemanvändare uppdaterad i skript"
 
 # Kör backup- och översättningsskript
