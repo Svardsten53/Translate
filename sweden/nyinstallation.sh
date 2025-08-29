@@ -10,7 +10,7 @@ cd ~/BirdNET-Pi
 mv Translate Translate_old && echo "Translate-mapp omdöpt"
 
 # Ladda ner och extrahera Translate.zip
-wget -O Translate.zip "https://raw.githubusercontent.com/Svardsten53/Translate/main/sweden/Translate.zip" && unzip -o Translate.zip && rm Translate.zip
+wget -O Translate.zip "https://raw.githubusercontent.com/Svardsten53/Translate/test/sweden/Translate.zip" && unzip -o Translate.zip && rm Translate.zip
 echo "Translate.zip nedladdad, extraherad och borttagen"
 
 # Sätt rättigheter
