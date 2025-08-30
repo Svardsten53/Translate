@@ -29,3 +29,14 @@ Translations into other languages have been made with AI and will likely require
 ### **Contributing**
 
 Please read more in the information files listed above.
+
+## Installation
+The modification can be installed with the following commands, one for each country. More countries will be added once the translation has been verified. Be sure to replace the text "Enter your location here" with the location you want in the title.
+
+Sweden
+```
+cd ~/BirdNET-Pi && wget -O nyinstallation.sh https://raw.githubusercontent.com/Svardsten53/Translate/main/sweden/nyinstallation.sh && sudo chmod u+x nyinstallation.sh && dos2unix nyinstallation.sh && sed -i '/export PLATS=/d' ~/.bashrc && echo 'export PLATS="Enter your location here"' >> ~/.bashrc && source ~/.bashrc && bash nyinstallation.sh
+```
+France
+```
+cd ~/BirdNET-Pi && wget -O nyinstallation.sh https://raw.githubusercontent.com/Svardsten53/Translate/main/france/nyinstallation.sh && sudo chmod u+x nyinstallation.sh && dos2unix nyinstallation.sh && sed -i '/export PLATS=/d' ~/.bashrc && echo 'export PLATS="Enter your location here"' >> ~/.bashrc && source ~/.bashrc && bash nyinstallation.sh
