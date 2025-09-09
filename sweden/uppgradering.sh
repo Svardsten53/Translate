@@ -25,7 +25,7 @@ echo "Ny Translate.zip nedladdad, extraherad och borttagen"
 # sudo chown -R $USER:$USER ~/BirdNET-Pi /home/$USER/BirdSongs
 sudo chown -R $USER:$USER ~/BirdNET-Pi
 # sudo chmod -R g+rw ~/BirdNET-Pi /home/$USER/BirdSongs
-sudo chmod -R g+rw ~/BirdNET-Pis
+sudo chmod -R g+rw ~/BirdNET-Pi
 sudo chmod u+x Translate/skript/*.sh
 echo "Filbehörigheter satta"
 
