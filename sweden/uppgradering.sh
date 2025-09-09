@@ -18,12 +18,14 @@ cd ~/BirdNET-Pi
 mv Translate Translate_old && echo "Translate-mapp omdöpt"
 
 # Ladda ner och extrahera ny Translate.zip
-wget -O Translate.zip "https://raw.githubusercontent.com/Svardsten53/Translate/main/sweden/Translate.zip" && unzip -o Translate.zip && rm Translate.zip
+wget -O Translate.zip "https://svardsten.com/birdnetpi/nachtzuster/Translate.zip" && unzip -o Translate.zip && rm Translate.zip
 echo "Ny Translate.zip nedladdad, extraherad och borttagen"
 
 # Sätt rättigheter
-sudo chown -R $USER:$USER ~/BirdNET-Pi /home/$USER/BirdSongs
-sudo chmod -R g+rw ~/BirdNET-Pi /home/$USER/BirdSongs
+# sudo chown -R $USER:$USER ~/BirdNET-Pi /home/$USER/BirdSongs
+sudo chown -R $USER:$USER ~/BirdNET-Pi
+# sudo chmod -R g+rw ~/BirdNET-Pi /home/$USER/BirdSongs
+sudo chmod -R g+rw ~/BirdNET-Pis
 sudo chmod u+x Translate/skript/*.sh
 echo "Filbehörigheter satta"
 
