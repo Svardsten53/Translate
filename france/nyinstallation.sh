@@ -14,8 +14,8 @@ wget -O Translate.zip "https://raw.githubusercontent.com/Svardsten53/Translate/m
 echo "Translate.zip downloaded, extracted, and removed"
 
 # Set permissions
-sudo chown -R $USER:$USER $HOME/BirdNET-Pi /home/$USER/BirdSongs
-sudo chmod -R g+rw $HOME/BirdNET-Pi /home/$USER/BirdSongs
+sudo chown -R $USER:$USER $HOME/BirdNET-Pi
+sudo chmod -R g+rw $HOME/BirdNET-Pi
 sudo chmod u+x Translate/skript/*.sh
 echo "File permissions set"
 
