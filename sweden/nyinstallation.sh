@@ -34,7 +34,7 @@ echo "BirdNET-Pi uppdaterad"
 
 # Anpassa skript
 cd Translate/skript
-sudo sed -i "s|/home/userid-att-ändra|$HOME|g" 2_backuporg.sh 5_kopieraegna.sh 3_restoreorg.sh 6_backupegna.sh 7_translate.sh 8_restoreegna.sh replace.php
+sudo sed -i "s|/home/userid-att-ändra|$HOME|g" 2_backuporg.sh 5_kopieraegna.sh 3_restoreorg.sh 6_backupegna.sh 7_translate.sh 8_restoreegna.sh
 echo "Aktuell systemanvändare uppdaterad i skript"
 
 # Skriv in plats i index.php
