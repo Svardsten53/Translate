@@ -15,7 +15,7 @@ echo "Translate.zip downloaded, extracted, and removed"
 
 # Set permissions
 sudo chown -R $USER:$USER $HOME/BirdNET-Pi /home/$USER/BirdSongs
-sudo chmod -R g+rw $HOME/BirdNET-Pi /home/$USER/BirdSongs
+* sudo chmod -R g+rw $HOME/BirdNET-Pi /home/$USER/BirdSongs
 sudo chmod u+x Translate/skript/*.sh
 echo "File permissions set"
 
