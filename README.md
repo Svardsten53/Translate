@@ -51,3 +51,8 @@ cd ~/BirdNET-Pi && wget -O nyinstallation.sh https://raw.githubusercontent.com/S
 ```
 cd ~/BirdNET-Pi && wget -O nyinstallation.sh https://raw.githubusercontent.com/Svardsten53/Translate/main/germany/nyinstallation.sh && sudo chmod u+x nyinstallation.sh && dos2unix nyinstallation.sh && sed -i '/export PLATS=/d' ~/.bashrc && echo 'export PLATS="Enter your location here"' >> ~/.bashrc && source ~/.bashrc && bash nyinstallation.sh
 ```
+
+*Italy**
+```
+cd ~/BirdNET-Pi && wget -O nyinstallation.sh https://raw.githubusercontent.com/Svardsten53/Translate/main/italy/nyinstallation.sh && sudo chmod u+x nyinstallation.sh && dos2unix nyinstallation.sh && sed -i '/export PLATS=/d' ~/.bashrc && echo 'export PLATS="Enter your location here"' >> ~/.bashrc && source ~/.bashrc && bash nyinstallation.sh
+```
