@@ -17,6 +17,9 @@ sed -i 's/You cannot listen to the live audio stream/Du kan ikke lytte til live-
 sed -i 's/>Live Audio</>Live-lyd</g' index.php
 #
 # views.php - Menu bar
+sed -i "/<button type=\"submit\" name=\"view\" value=\"Recordings\" form=\"views\">Recordings<\/button>/a <button type=\"submit\" name=\"view\" value=\"Links\" form=\"views\">Links<\/button>" views.php
+sed -i "/if(\$_GET\['view'\] == \"Daily Charts\"){include('history.php');}/a if(\$_GET['view'] == \"Links\"){include('scripts/links.php');}" views.php
+sed -i "/if(\$_GET\['view'\] == \"Links\"){include('scripts\/links.php');}/a if(\$_GET['view'] == \"QA\"){include('scripts/qa.php');}" views.php
 sed -i 's/>Overview</>Oversikt</g' views.php
 sed -i "s/>Today's Detections</>Dagens deteksjoner</g" views.php
 sed -i 's/>Best Recordings</>Beste opptak</g' views.php
