@@ -34,6 +34,8 @@ Please read more in the information files listed above.
 The modification can be installed with the following commands, one for each country. More countries will be added once the translation has been verified. Be sure to replace the text "Enter your location here" with the location you want in the title.
 This command is only run once on an unmodified installation. Subsequent updates can be made from "System Controls" in the Tools menu.
 
+If you want to go back to the original look, it's very easy, just click the regular "Update" button.
+
 **Sweden**
 ```
 cd ~/BirdNET-Pi && wget -O nyinstallation.sh https://raw.githubusercontent.com/Svardsten53/Translate/main/sweden/nyinstallation.sh && sudo chmod u+x nyinstallation.sh && dos2unix nyinstallation.sh && sed -i '/export PLATS=/d' ~/.bashrc && echo 'export PLATS="Enter your location here"' >> ~/.bashrc && source ~/.bashrc && bash nyinstallation.sh
