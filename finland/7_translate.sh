@@ -70,10 +70,8 @@ sed -i 's/Are you sure you want to blacklist this image?/Oletko varma, että hal
 sed -i 's/Blacklist this image/Aseta kuva mustalle listalle/g' overview.php
 sed -i 's/Your system is currently processing a backlog of audio. This can take several hours before normal functionality of your BirdNET-Pi resumes./Järjestelmäsi käsittelee parhaillaan äänien ruuhkaa. Tämä voi kestää useita tunteja, ennen kuin BirdNET-Pi:n normaali toiminnallisuus jatkuu./g' overview.php
 # Addition for Nachtzuster
-# sed -i 's#wikipedia.org/wiki/<\?php echo \$sciname#fi.wikipedia.org/wiki/<\?php echo \$comname#g' overview.php
-sed -i 's#<a href="https://wikipedia.org/wiki/<?php echo $sciname; ?>"#<a href="https://fi.wikipedia.org/wiki/<?php echo $comname;?>"#g' overview.php
 sed -i 's#<a href="https://wikipedia.org/wiki/<?php echo $sciname;?>"#<a href="https://fi.wikipedia.org/wiki/<?php echo $comname;?>"#g' overview.php
-sed -i 's#title="Wikipedia"#title="Wikipedia"#g' overview.php
+sed -i 's#<a href="https://wikipedia.org/wiki/<?php echo $sciname; ?>"#<a href="https://fi.wikipedia.org/wiki/<?php echo $comname;?>"#g' overview.php
 sed -i 's/Species Today/Lajit tänään/g' overview.php
 sed -i 's/Species Total/Lajit yhteensä/g' overview.php
 sed -i 's/New Species/Uudet lajit/g' overview.php
@@ -113,9 +111,7 @@ sed -i 's/Are you sure you want to blacklist this image?/Oletko varma, että hal
 sed -i 's/Blacklist this image/Aseta kuva mustalle listalle/g' todays_detections.php
 sed -i 's/Delete Detection/Poista havainto/g' todays_detections.php
 # Addition for Nachtzuster
-# sed -i 's#wikipedia.org/wiki/<\?php echo \$sciname#fi.wikipedia.org/wiki/<\?php echo \$comname#g' todays_detections.php
 sed -i 's#<a href="https://wikipedia.org/wiki/<?php echo $sciname;?>"#<a href="https://fi.wikipedia.org/wiki/<?php echo $comname;?>"#g' todays_detections.php
-# sed -i 's#title="Wikipedia"#title="Svenska Wikipedia"#g' todays_detections.php
 sed -i 's/Species Total/Lajit yhteensä/g' todays_detections.php
 sed -i 's/Species Today/Lajit tänään/g' todays_detections.php
 #
@@ -135,9 +131,7 @@ sed -i 's/Sort by occurrences/Lajittele esiintymien mukaan/g' stats.php
 sed -i 's/Open in new tab/Avaa uudessa välilehdessä/g' stats.php
 sed -i '0,/<style>/{s/<style>/<style> a:link { color: blue; } a:visited { color: blue; } a:active { color: blue; }/}' stats.php
 # Addition for Nachtzuster
-sed -i "s#wikipedia\.org/wiki/\$sciname#fi.wikipedia.org/wiki/\$comname#g" stats.php
-sed -i 's#wikipedia.org/wiki/<\?php echo \$sciname#fi.wikipedia.org/wiki/<\?php echo \$comname#g' stats.php
-# sed -i 's#"Wikipedia\"#"Svenska Wikipedia\"#g' stats.php
+sed -i 's#//wikipedia\.org/wiki/\$sciname#//fi\.wikipedia\.org/wiki/\$comname#g' stats.php
 sed -i 's#wikipedia\.org/wiki/\$sciname#fi.wikipedia.org/wiki/\$comname#g' stats.php
 sed -i 's/Sort by confidence/Lajittele luottamuksen mukaan/g' stats.php
 #
@@ -175,8 +169,7 @@ sed -i 's/This file has been shifted down in frequency./Tämän tiedoston taajuu
 sed -i 's/This file is not shifted in frequency./Tämän tiedoston taajuutta ei ole siirretty./g' play.php
 sed -i 's/Sort by confidence/Lajittele luottamuksen mukaan/g' play.php
 # Addition for Nachtzuster
-sed -i 's#wikipedia\.org/wiki/\$sciname#fi.wikipedia.org/wiki/\$name#g' play.php
-# sed -i 's#"Wikipedia\"#"Svenska Wikipedia\"#g' play.php
+sed -i 's#wikipedia\.org/wiki/\$sciname#fi\.wikipedia\.org/wiki/\$sciname#g' play.php
 sed -i 's#Change Detection#Muuta havaintoa#g' play.php
 sed -i 's#This file will be deleted when disk space needs to be freed.#Tämä tiedosto poistetaan, kun levytilaa tarvitsee vapauttaa.#g' play.php
 sed -i 's#\(>95% usage\)\.# (>95% käyttö).#g' play.php

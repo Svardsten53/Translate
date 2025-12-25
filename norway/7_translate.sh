@@ -70,10 +70,8 @@ sed -i 's/Are you sure you want to blacklist this image?/Er du sikker på at du 
 sed -i 's/Blacklist this image/Svartelist dette bildet/g' overview.php
 sed -i 's/Your system is currently processing a backlog of audio. This can take several hours before normal functionality of your BirdNET-Pi resumes./Systemet ditt behandler for øyeblikket en kø av lyd. Dette kan ta flere timer før normal funksjonalitet av din BirdNET-Pi gjenopptas./g' overview.php
 # Addition for Nachtzuster
-# sed -i 's#wikipedia.org/wiki/<\?php echo \$sciname#no.wikipedia.org/wiki/<\?php echo \$comname#g' overview.php
-sed -i 's#<a href="https://wikipedia.org/wiki/<?php echo $sciname; ?>"#<a href="https://no.wikipedia.org/wiki/<?php echo $comname;?>"#g' overview.php
 sed -i 's#<a href="https://wikipedia.org/wiki/<?php echo $sciname;?>"#<a href="https://no.wikipedia.org/wiki/<?php echo $comname;?>"#g' overview.php
-sed -i 's#title="Wikipedia"#title="Wikipedia"#g' overview.php
+sed -i 's#<a href="https://wikipedia.org/wiki/<?php echo $sciname; ?>"#<a href="https://no.wikipedia.org/wiki/<?php echo $comname;?>"#g' overview.php
 sed -i 's/Species Today/Arter i dag/g' overview.php
 sed -i 's/Species Total/Arter totalt/g' overview.php
 sed -i 's/New Species/Nye arter/g' overview.php
@@ -113,9 +111,7 @@ sed -i 's/Are you sure you want to blacklist this image?/Er du sikker på at du 
 sed -i 's/Blacklist this image/Svartelist dette bildet/g' todays_detections.php
 sed -i 's/Delete Detection/Slett deteksjon/g' todays_detections.php
 # Addition for Nachtzuster
-# sed -i 's#wikipedia.org/wiki/<\?php echo \$sciname#no.wikipedia.org/wiki/<\?php echo \$comname#g' todays_detections.php
 sed -i 's#<a href="https://wikipedia.org/wiki/<?php echo $sciname;?>"#<a href="https://no.wikipedia.org/wiki/<?php echo $comname;?>"#g' todays_detections.php
-# sed -i 's#title="Wikipedia"#title="Svenska Wikipedia"#g' todays_detections.php
 sed -i 's/Species Total/Arter totalt/g' todays_detections.php
 sed -i 's/Species Today/Arter i dag/g' todays_detections.php
 #
@@ -135,10 +131,7 @@ sed -i 's/Sort by occurrences/Sorter etter forekomster/g' stats.php
 sed -i 's/Open in new tab/Åpne i ny fane/g' stats.php
 sed -i '0,/<style>/{s/<style>/<style> a:link { color: blue; } a:visited { color: blue; } a:active { color: blue; }/}' stats.php
 # Addition for Nachtzuster
-sed -i "s#wikipedia\.org/wiki/\$sciname#no.wikipedia.org/wiki/\$comname#g" stats.php
-sed -i 's#wikipedia.org/wiki/<\?php echo \$sciname#no.wikipedia.org/wiki/<\?php echo \$comname#g' stats.php
-# sed -i 's#"Wikipedia\"#"Svenska Wikipedia\"#g' stats.php
-sed -i 's#wikipedia\.org/wiki/\$sciname#no.wikipedia.org/wiki/\$comname#g' stats.php
+sed -i 's#wikipedia\.org/wiki/\$sciname#no\.wikipedia\.org/wiki/\$sciname#g' play.php
 sed -i 's/Sort by confidence/Sorter etter sikkerhet/g' stats.php
 #
 # history.php - Daily graphs

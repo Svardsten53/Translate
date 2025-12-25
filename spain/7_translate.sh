@@ -70,10 +70,8 @@ sed -i 's/Are you sure you want to blacklist this image?/¿Estás seguro de que 
 sed -i 's/Blacklist this image/Poner esta imagen en la lista negra/g' overview.php
 sed -i 's/Your system is currently processing a backlog of audio. This can take several hours before normal functionality of your BirdNET-Pi resumes./Tu sistema está procesando actualmente una acumulación de audio. Esto puede tomar varias horas antes de que la funcionalidad normal de tu BirdNET-Pi se reanude./g' overview.php
 # Addition for Nachtzuster
-# sed -i 's#wikipedia.org/wiki/<\?php echo \$sciname#es.wikipedia.org/wiki/<\?php echo \$comname#g' overview.php
-sed -i 's#<a href="https://wikipedia.org/wiki/<?php echo $sciname; ?>"#<a href="https://es.wikipedia.org/wiki/<?php echo $comname;?>"#g' overview.php
 sed -i 's#<a href="https://wikipedia.org/wiki/<?php echo $sciname;?>"#<a href="https://es.wikipedia.org/wiki/<?php echo $comname;?>"#g' overview.php
-sed -i 's#title="Wikipedia"#title="Wikipedia"#g' overview.php
+sed -i 's#<a href="https://wikipedia.org/wiki/<?php echo $sciname; ?>"#<a href="https://es.wikipedia.org/wiki/<?php echo $comname;?>"#g' overview.php
 sed -i 's/Species Today/Especies hoy/g' overview.php
 sed -i 's/Species Total/Especies totales/g' overview.php
 sed -i 's/New Species/Nuevas especies/g' overview.php
@@ -113,9 +111,7 @@ sed -i 's/Are you sure you want to blacklist this image?/¿Estás seguro de que 
 sed -i 's/Blacklist this image/Poner esta imagen en la lista negra/g' todays_detections.php
 sed -i 's/Delete Detection/Eliminar detección/g' todays_detections.php
 # Addition for Nachtzuster
-# sed -i 's#wikipedia.org/wiki/<\?php echo \$sciname#es.wikipedia.org/wiki/<\?php echo \$comname#g' todays_detections.php
 sed -i 's#<a href="https://wikipedia.org/wiki/<?php echo $sciname;?>"#<a href="https://es.wikipedia.org/wiki/<?php echo $comname;?>"#g' todays_detections.php
-# sed -i 's#title="Wikipedia"#title="Svenska Wikipedia\"#g' todays_detections.php
 sed -i 's/Species Total/Especies totales/g' todays_detections.php
 sed -i 's/Species Today/Especies hoy/g' todays_detections.php
 #
@@ -135,10 +131,7 @@ sed -i 's/Sort by occurrences/Ordenar por ocurrencias/g' stats.php
 sed -i 's/Open in new tab/Abrir en nueva pestaña/g' stats.php
 sed -i '0,/<style>/{s/<style>/<style> a:link { color: blue; } a:visited { color: blue; } a:active { color: blue; }/}' stats.php
 # Addition for Nachtzuster
-sed -i "s#wikipedia\.org/wiki/\$sciname#es.wikipedia.org/wiki/\$comname#g" stats.php
-sed -i 's#wikipedia.org/wiki/<\?php echo \$sciname#es.wikipedia.org/wiki/<\?php echo \$comname#g' stats.php
-# sed -i 's#"Wikipedia\"#"Svenska Wikipedia\"#g' stats.php
-sed -i 's#wikipedia\.org/wiki/\$sciname#es.wikipedia.org/wiki/\$comname#g' stats.php
+sed -i 's#//wikipedia\.org/wiki/\$sciname#//es\.wikipedia\.org/wiki/\$comname#g' stats.php
 sed -i 's/Sort by confidence/Ordenar por confianza/g' stats.php
 #
 # history.php - Daily graphs
@@ -175,8 +168,7 @@ sed -i 's/This file has been shifted down in frequency./Este archivo ha sido des
 sed -i 's/This file is not shifted in frequency./Este archivo no está desplazado en frecuencia./g' play.php
 sed -i 's/Sort by confidence/Ordenar por confianza/g' play.php
 # Addition for Nachtzuster
-sed -i 's#wikipedia\.org/wiki/\$sciname#es.wikipedia.org/wiki/\$name#g' play.php
-# sed -i 's#"Wikipedia\"#"Svenska Wikipedia\"#g' play.php
+sed -i 's#wikipedia\.org/wiki/\$sciname#es\.wikipedia\.org/wiki/\$sciname#g' play.php
 sed -i 's#Change Detection#Cambiar detección#g' play.php
 sed -i 's#This file will be deleted when disk space needs to be freed.#Este archivo se eliminará cuando se necesite liberar espacio en el disco.#g' play.php
 sed -i 's#\(>95% usage\)\.# (>95% de uso).#g' play.php

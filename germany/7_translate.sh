@@ -17,6 +17,9 @@ sed -i 's/You cannot listen to the live audio stream/Sie können den Live-Audios
 sed -i 's/>Live Audio</>Live-Audio</g' index.php
 #
 # views.php - Menu bar
+sed -i "/<button type=\"submit\" name=\"view\" value=\"Recordings\" form=\"views\">Recordings<\/button>/a <button type=\"submit\" name=\"view\" value=\"Links\" form=\"views\">Links<\/button>" views.php
+sed -i "/if(\$_GET\['view'\] == \"Daily Charts\"){include('history.php');}/a if(\$_GET['view'] == \"Links\"){include('scripts/links.php');}" views.php
+sed -i "/if(\$_GET\['view'\] == \"Links\"){include('scripts\/links.php');}/a if(\$_GET['view'] == \"QA\"){include('scripts/qa.php');}" views.php
 sed -i 's/>Overview</>Übersicht</g' views.php
 sed -i "s/>Today's Detections</>Heutige Erkennungen</g" views.php
 sed -i 's/>Best Recordings</>Beste Aufnahmen</g' views.php
@@ -67,10 +70,8 @@ sed -i 's/Are you sure you want to blacklist this image?/Möchten Sie dieses Bil
 sed -i 's/Blacklist this image/Dieses Bild auf die schwarze Liste setzen/g' overview.php
 sed -i 's/Your system is currently processing a backlog of audio. This can take several hours before normal functionality of your BirdNET-Pi resumes./Ihr System verarbeitet gerade einen Rückstand an Audiodaten. Dies kann mehrere Stunden dauern, bis die normale Funktionalität Ihres BirdNET-Pi wiederhergestellt ist./g' overview.php
 # Addition for Nachtzuster
-# sed -i 's#wikipedia.org/wiki/<\?php echo \$sciname#de.wikipedia.org/wiki/<\?php echo \$comname#g' overview.php
-sed -i 's#<a href="https://wikipedia.org/wiki/<?php echo $sciname; ?>"#<a href="https://de.wikipedia.org/wiki/<?php echo $comname;?>"#g' overview.php
 sed -i 's#<a href="https://wikipedia.org/wiki/<?php echo $sciname;?>"#<a href="https://de.wikipedia.org/wiki/<?php echo $comname;?>"#g' overview.php
-sed -i 's#title="Wikipedia"#title="Wikipedia"#g' overview.php
+sed -i 's#<a href="https://wikipedia.org/wiki/<?php echo $sciname; ?>"#<a href="https://de.wikipedia.org/wiki/<?php echo $comname;?>"#g' overview.php
 sed -i 's/Species Today/Arten heute/g' overview.php
 sed -i 's/Species Total/Arten gesamt/g' overview.php
 sed -i 's/New Species/Neue Arten/g' overview.php
@@ -110,9 +111,7 @@ sed -i 's/Are you sure you want to blacklist this image?/Möchten Sie dieses Bil
 sed -i 's/Blacklist this image/Dieses Bild auf die schwarze Liste setzen/g' todays_detections.php
 sed -i 's/Delete Detection/Erkennung löschen/g' todays_detections.php
 # Addition for Nachtzuster
-# sed -i 's#wikipedia.org/wiki/<\?php echo \$sciname#de.wikipedia.org/wiki/<\?php echo \$comname#g' todays_detections.php
 sed -i 's#<a href="https://wikipedia.org/wiki/<?php echo $sciname;?>"#<a href="https://de.wikipedia.org/wiki/<?php echo $comname;?>"#g' todays_detections.php
-# sed -i 's#title="Wikipedia"#title="Svenska Wikipedia"#g' todays_detections.php
 sed -i 's/Species Total/Arten gesamt/g' todays_detections.php
 sed -i 's/Species Today/Arten heute/g' todays_detections.php
 #
@@ -132,10 +131,7 @@ sed -i 's/Sort by occurrences/Nach Vorkommen sortieren/g' stats.php
 sed -i 's/Open in new tab/In neuem Tab öffnen/g' stats.php
 sed -i '0,/<style>/{s/<style>/<style> a:link { color: blue; } a:visited { color: blue; } a:active { color: blue; }/}' stats.php
 # Addition for Nachtzuster
-sed -i "s#wikipedia\.org/wiki/\$sciname#de.wikipedia.org/wiki/\$comname#g" stats.php
-sed -i 's#wikipedia.org/wiki/<\?php echo \$sciname#de.wikipedia.org/wiki/<\?php echo \$comname#g' stats.php
-# sed -i 's#"Wikipedia\"#"Svenska Wikipedia\"#g' stats.php
-sed -i 's#wikipedia\.org/wiki/\$sciname#de.wikipedia.org/wiki/\$comname#g' stats.php
+sed -i 's#//wikipedia\.org/wiki/\$sciname#//de\.wikipedia\.org/wiki/\$comname#g' stats.php
 sed -i 's/Sort by confidence/Nach Sicherheit sortieren/g' stats.php
 #
 # history.php - Daily graphs
@@ -172,8 +168,7 @@ sed -i 's/This file has been shifted down in frequency./Diese Datei wurde in der
 sed -i 's/This file is not shifted in frequency./Diese Datei ist in der Frequenz nicht verschoben./g' play.php
 sed -i 's/Sort by confidence/Nach Sicherheit sortieren/g' play.php
 # Addition for Nachtzuster
-sed -i 's#wikipedia\.org/wiki/\$sciname#de.wikipedia.org/wiki/\$name#g' play.php
-# sed -i 's#"Wikipedia\"#"Svenska Wikipedia\"#g' play.php
+sed -i 's#wikipedia\.org/wiki/\$sciname#de\.wikipedia\.org/wiki/\$sciname#g' play.php
 sed -i 's#Change Detection#Erkennung ändern#g' play.php
 sed -i 's#This file will be deleted when disk space needs to be freed.#Diese Datei wird gelöscht, wenn Speicherplatz freigegeben werden muss.#g' play.php
 sed -i 's#\(>95% usage\)\.# (>95% Auslastung).#g' play.php
