@@ -3,7 +3,7 @@
 # This script replaces selected text in files with French text.
 # Corrected for French characters, apostrophes, and sed syntax.
 #
-# Updated 2025-08-29 /L-Å
+# Updated 2025-12-29 /L-Å
 #
 # -----------------------
 # Set working directories
@@ -124,7 +124,6 @@ sed -i "s#mo ago# mois auparavant#g" todays_detections.php
 sed -i "s#d ago# jours auparavant#g" todays_detections.php
 sed -i "s#Open Today's recordings page#Ouvrir la page des enregistrements d'aujourd'hui#g" todays_detections.php
 #
-#
 # todays_detections.php - Today's finds
 sed -i "s#>Number of Detections#>Nombre de détections#g" todays_detections.php
 sed -i "s#>Total#>Total#g" todays_detections.php
@@ -172,7 +171,6 @@ sed -i "0,/<style>/{s/<style>/<style> a:link { color: blue; } a:visited { color:
 sed -i 's#//wikipedia\.org/wiki/\$sciname#//fr\.wikipedia\.org/wiki/\$comname#g' stats.php
 sed -i "s#Sort by confidence#Trier par confiance#g" stats.php
 #
-#
 # history.php - Daily graphs
 sed -i "s#>Submit Date#>Soumettre la date#g" history.php
 sed -i "s#Total Detections For The Day#Détections totales pour la journée#g" history.php
@@ -204,7 +202,6 @@ sed -i "s#Delete Detection#Supprimer la détection#g" play.php
 sed -i "s#\"Today\"#\"Aujourd'hui\"#g" play.php
 sed -i "s#This file has been shifted down in frequency.#Ce fichier a été décalé en fréquence vers le bas.#g" play.php
 sed -i "s/This file is not shifted in frequency./Ce fichier n'est pas décalé en fréquence./g" play.php
-# Addition for Nachtzuster
 sed -i 's#wikipedia\.org/wiki/\$sciname#fr\.wikipedia\.org/wiki/\$sciname#g' play.php
 # sed -i 's#\"Wikipedia\"#\"Svenska Wikipedia\"#g' play.php
 sed -i "s/Change Detection/Changer la détection/g" play.php

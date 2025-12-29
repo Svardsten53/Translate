@@ -5,7 +5,7 @@
 # If you want to make your own changes to the text, you can do so by copying one of the existing sed commands and changing the text in it. Note that the character '/' is a delimiter for the different parts of the command and that the same character must not exist in the text to be found or pasted. If this is the case, '/' can be replaced with, for example, '$'.
 # translate.sh can be run any number of times as only the strings that have not already been changed will be changed.
 #
-# Updated 2025-08-17 /L-Å
+# Updated 2025-12-29 /L-Å
 #
 # Positions correctly in the file structure
 alias homepage="cd /home/userid-att-ändra/BirdNET-Pi/"
@@ -55,7 +55,6 @@ sed -i 's/>Species Detected Today</>Especies detectadas hoy</g' overview.php
 sed -i 's/>Total Number of Species</>Número total de especies</g' overview.php
 sed -i 's/<h3>Most Recent Detection:/<br><h3>Detección más reciente:/g' overview.php
 sed -i 's/<h3>Currently Analyzing/<br><br><h3>Analizando actualmente/g' overview.php
-# sed -i '$s/<script>/<br><script>/g' overview.php
 sed -i 's/Confidence:/Confianza:/g' overview.php
 sed -i 's/Database is busy/La base de datos está ocupada/g' overview.php
 sed -i 's/5 Most Recent Detections/Las 5 detecciones más recientes/g' overview.php
@@ -69,7 +68,6 @@ sed -i 's/>Close</>Cerrar</g' overview.php
 sed -i 's/Are you sure you want to blacklist this image?/¿Estás seguro de que quieres poner esta imagen en la lista negra?/g' overview.php
 sed -i 's/Blacklist this image/Poner esta imagen en la lista negra/g' overview.php
 sed -i 's/Your system is currently processing a backlog of audio. This can take several hours before normal functionality of your BirdNET-Pi resumes./Tu sistema está procesando actualmente una acumulación de audio. Esto puede tomar varias horas antes de que la funcionalidad normal de tu BirdNET-Pi se reanude./g' overview.php
-# Addition for Nachtzuster
 sed -i 's#<a href="https://wikipedia.org/wiki/<?php echo $sciname;?>"#<a href="https://es.wikipedia.org/wiki/<?php echo $comname;?>"#g' overview.php
 sed -i 's#<a href="https://wikipedia.org/wiki/<?php echo $sciname; ?>"#<a href="https://es.wikipedia.org/wiki/<?php echo $comname;?>"#g' overview.php
 sed -i 's/Species Today/Especies hoy/g' overview.php
@@ -110,7 +108,6 @@ sed -i 's/>Close</>Cerrar</g' todays_detections.php
 sed -i 's/Are you sure you want to blacklist this image?/¿Estás seguro de que quieres poner esta imagen en la lista negra?/g' todays_detections.php
 sed -i 's/Blacklist this image/Poner esta imagen en la lista negra/g' todays_detections.php
 sed -i 's/Delete Detection/Eliminar detección/g' todays_detections.php
-# Addition for Nachtzuster
 sed -i 's#<a href="https://wikipedia.org/wiki/<?php echo $sciname;?>"#<a href="https://es.wikipedia.org/wiki/<?php echo $comname;?>"#g' todays_detections.php
 sed -i 's/Species Total/Especies totales/g' todays_detections.php
 sed -i 's/Species Today/Especies hoy/g' todays_detections.php
@@ -130,7 +127,6 @@ sed -i 's/Sort by alphabetical/Ordenar alfabéticamente/g' stats.php
 sed -i 's/Sort by occurrences/Ordenar por ocurrencias/g' stats.php
 sed -i 's/Open in new tab/Abrir en nueva pestaña/g' stats.php
 sed -i '0,/<style>/{s/<style>/<style> a:link { color: blue; } a:visited { color: blue; } a:active { color: blue; }/}' stats.php
-# Addition for Nachtzuster
 sed -i 's#//wikipedia\.org/wiki/\$sciname#//es\.wikipedia\.org/wiki/\$comname#g' stats.php
 sed -i 's/Sort by confidence/Ordenar por confianza/g' stats.php
 #
@@ -167,7 +163,6 @@ sed -i 's/"Today"/"Hoy"/g' play.php
 sed -i 's/This file has been shifted down in frequency./Este archivo ha sido desplazado hacia abajo en frecuencia./g' play.php
 sed -i 's/This file is not shifted in frequency./Este archivo no está desplazado en frecuencia./g' play.php
 sed -i 's/Sort by confidence/Ordenar por confianza/g' play.php
-# Addition for Nachtzuster
 sed -i 's#wikipedia\.org/wiki/\$sciname#es\.wikipedia\.org/wiki/\$sciname#g' play.php
 sed -i 's#Change Detection#Cambiar detección#g' play.php
 sed -i 's#This file will be deleted when disk space needs to be freed.#Este archivo se eliminará cuando se necesite liberar espacio en el disco.#g' play.php
@@ -214,13 +209,6 @@ sed -i 's/Reviewed/Revisado/g' plotly_streamlit.py
 sed -i 's/Available recordings/Grabaciones disponibles/g' plotly_streamlit.py
 sed -i 's/View fullscreen/Ver en pantalla completa/g' plotly_streamlit.py
 sed -i 's/Made with Streamlit/Hecho con Streamlit/g' plotly_streamlit.py
-# Due to changed time format, it is no longer possible to translate the hours to Swedish format
-# sed -i "s/'12am', '1am', '2am', '3am', '4am', '5am', '6am', '7am', '8am', '9am',/'00', '01, '02', '03', '04', '05', '06', '07', '08', '09',/g" plotly_streamlit.py
-# sed -i "s/ '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm',/ '10', '11', '12', '13', '14', '15', '16', '17', '18',/g" plotly_streamlit.py
-# sed -i "s/'7pm', '8pm', '9pm', '10pm', '11pm'],/'19', '20', '21', '22, '23'],/g" plotly_streamlit.py
-# sed -i "s/'12am', '1am', '2am', '3am', '4am', '5am', '6am', '7am', '8am',/'00', '01', '02', '03', '04', '05', '06', '07', '08',/g" plotly_streamlit.py
-# sed -i "s/'9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm',/ '09', '10', '11', '12', '13', '14', '15', '16', '17',/g" plotly_streamlit.py
-# sed -i "s/'6pm', '7pm', '8pm', '9pm', '10pm', '11pm'],/'18', '19', '20', '21', '22', '23'],/g" plotly_streamlit.py
 sed -i 's/RUNNING.../EN EJECUCIÓN.../g' plotly_streamlit.py
 sed -i 's/Please wait.../Por favor espera.../g' plotly_streamlit.py
 sed -i 's/Date to View/Fecha a ver/g' plotly_streamlit.py
