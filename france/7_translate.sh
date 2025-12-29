@@ -203,7 +203,6 @@ sed -i "s#\"Today\"#\"Aujourd'hui\"#g" play.php
 sed -i "s#This file has been shifted down in frequency.#Ce fichier a été décalé en fréquence vers le bas.#g" play.php
 sed -i "s/This file is not shifted in frequency./Ce fichier n'est pas décalé en fréquence./g" play.php
 sed -i 's#wikipedia\.org/wiki/\$sciname#fr\.wikipedia\.org/wiki/\$sciname#g' play.php
-# sed -i 's#\"Wikipedia\"#\"Svenska Wikipedia\"#g' play.php
 sed -i "s/Change Detection/Changer la détection/g" play.php
 sed -i "s#This file will be deleted when disk space needs to be freed.#Ce fichier sera supprimé lorsque de l'espace disque devra être libéré.#g" play.php
 sed -i "s# (>95% usage).# (>95% d'utilisation).#g" play.php

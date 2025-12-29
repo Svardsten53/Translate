@@ -70,7 +70,6 @@ sed -i 's/Blacklist this image/Inserisci questa immagine nella lista nera/g' ove
 sed -i 's/Your system is currently processing a backlog of audio. This can take several hours before normal functionality of your BirdNET-Pi resumes./Il tuo sistema sta attualmente elaborando un arretrato di audio. Ciò può richiedere diverse ore prima che la normale funzionalità del tuo BirdNET-Pi riprenda./g' overview.php
 sed -i 's#<a href="https://wikipedia.org/wiki/<?php echo $sciname;?>"#<a href="https://it.wikipedia.org/wiki/<?php echo $comname;?>"#g' overview.php
 sed -i 's#<a href="https://wikipedia.org/wiki/<?php echo $sciname; ?>"#<a href="https://it.wikipedia.org/wiki/<?php echo $comname;?>"#g' overview.ph
-sed -i 's#title="Wikipedia"#title="Wikipedia"#g' overview.php
 sed -i 's/Species Today/Specie oggi/g' overview.php
 sed -i 's/Species Total/Specie totali/g' overview.php
 sed -i 's/New Species/Nuove specie/g' overview.php

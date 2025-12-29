@@ -127,7 +127,7 @@ sed -i 's/Sort by alphabetical/Sorter etter alfabetisk/g' stats.php
 sed -i 's/Sort by occurrences/Sorter etter forekomster/g' stats.php
 sed -i 's/Open in new tab/Åpne i ny fane/g' stats.php
 sed -i '0,/<style>/{s/<style>/<style> a:link { color: blue; } a:visited { color: blue; } a:active { color: blue; }/}' stats.php
-sed -i 's#wikipedia\.org/wiki/\$sciname#no\.wikipedia\.org/wiki/\$sciname#g' play.php
+sed -i 's#wikipedia\.org/wiki/\$sciname#no\.wikipedia\.org/wiki/\$sciname#g' stats.php
 sed -i 's/Sort by confidence/Sorter etter sikkerhet/g' stats.php
 #
 # history.php - Daily graphs
@@ -164,7 +164,6 @@ sed -i 's/This file has been shifted down in frequency./Denne filen er frekvensf
 sed -i 's/This file is not shifted in frequency./Denne filen er ikke frekvensforskjøvet./g' play.php
 sed -i 's/Sort by confidence/Sorter etter sikkerhet/g' play.php
 sed -i 's#wikipedia\.org/wiki/\$sciname#no.wikipedia.org/wiki/\$name#g' play.php
-# sed -i 's#"Wikipedia\"#"Svenska Wikipedia\"#g' play.php
 sed -i 's#Change Detection#Endre deteksjon#g' play.php
 sed -i 's#This file will be deleted when disk space needs to be freed.#Denne filen vil bli slettet når diskplass må frigjøres.#g' play.php
 sed -i 's#\(>95% usage\)\.# (>95% bruk).#g' play.php
