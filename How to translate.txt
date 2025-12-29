@@ -2,7 +2,7 @@ Here are files for translation from English to other languages ​​in BirdNET-
 
 Either create a fork of my repository and send a Pull Request or cut and paste the content and add the corrected text to an Issue.
 
-As soon as a correction for a language has been received, I will supplement that country with anything else that is needed for the modification to be able to run. For Sweden, everything is ready and can therefore be used.
+The translations for Sweden and France are verified, but modifications for the other countries are also executable, although with some reservation for translation errors.
 
 See also the document Simplified modification.PDF
 

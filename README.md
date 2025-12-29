@@ -31,7 +31,7 @@ Translations into other languages have been made with AI and will likely require
 Please read more in the information files listed above.
 
 ## Installation
-The modification can be installed with the following commands, one for each country. More countries will be added once the translation has been verified. Be sure to replace the text "Enter your location here" with the location you want in the title.
+The modification can be installed with the following commands, one for each country. If there is a request for translation for more countries, I can also try this.. Be sure to replace the text "Enter your location here" with the location you want in the title.
 This command is only run once on an unmodified installation. Subsequent updates can be made from "System Controls" in the Tools menu.
 
 **If you want to go back to the original look, it's very easy, just click the regular "Update" button.**
