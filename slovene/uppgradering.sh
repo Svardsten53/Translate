@@ -18,7 +18,7 @@ cd ~/BirdNET-Pi
 mv Translate Translate_old && echo "Translate folder renamed"
 
 # Download and extract new Translate.zip
-wget -O Translate.zip "https://raw.githubusercontent.com/Svardsten53/Translate/main/slovenia/Translate.zip" && unzip -o Translate.zip && rm Translate.zip
+wget -O Translate.zip "https://raw.githubusercontent.com/Svardsten53/Translate/main/slovene/Translate.zip" && unzip -o Translate.zip && rm Translate.zip
 echo "New Translate.zip downloaded, extracted, and removed"
 
 # Set permissions
