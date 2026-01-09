@@ -72,11 +72,8 @@ sed -i 's/>Close</>Zapri</g' overview.php
 sed -i 's/Are you sure you want to blacklist this image?/Ali ste prepričani, da želite to sliko postaviti na seznam nezaželjenih?/g' overview.php
 sed -i 's/Blacklist this image/Dodaj to sliko na seznam nezaželjenih/g' overview.php
 sed -i 's/Your system is currently processing a backlog of audio. This can take several hours before normal functionality of your BirdNET-Pi resumes./Vaš sistem trenutno obdeluje zaostale zvočne datoteke. To lahko traja več ur, preden se BirdNET-Pi vrne nazaj v normalno delovanje./g' overview.php
-# Addition for Nachtzuster
-# sed -i 's#wikipedia.org/wiki/<\?php echo \$sciname#de.wikipedia.org/wiki/<\?php echo \$comname#g' overview.php
-sed -i 's#<a href="https://wikipedia.org/wiki/<?php echo $sciname; ?>"#<a href="https://sl.wikipedia.org/wiki/<?php echo $comname;?>"#g' overview.php
 sed -i 's#<a href="https://wikipedia.org/wiki/<?php echo $sciname;?>"#<a href="https://sl.wikipedia.org/wiki/<?php echo $comname;?>"#g' overview.php
-sed -i 's#title="Wikipedia"#title="Wikipedia"#g' overview.php
+sed -i 's#<a href="https://wikipedia.org/wiki/<?php echo $sciname; ?>"#<a href="https://sl.wikipedia.org/wiki/<?php echo $comname;?>"#g' overview.php
 sed -i 's/Species Today/Današnje vrste/g' overview.php
 sed -i 's/Species Total/Skupno št. vrst/g' overview.php
 sed -i 's/New Species/Nove vrste/g' overview.php
@@ -115,10 +112,7 @@ sed -i 's/>Close</>Zapri</g' todays_detections.php
 sed -i 's/Are you sure you want to blacklist this image?/Ali ste prepričani, da želite to sliko postaviti na seznam nezaželjenih?/g' todays_detections.php
 sed -i 's/Blacklist this image/Dodaj to sliko na seznam nezaželjenih/g' todays_detections.php
 sed -i 's/Delete Detection/Izbriši zaznavo/g' todays_detections.php
-# Addition for Nachtzuster
-# sed -i 's#wikipedia.org/wiki/<\?php echo \$sciname#de.wikipedia.org/wiki/<\?php echo \$comname#g' todays_detections.php
 sed -i 's#<a href="https://wikipedia.org/wiki/<?php echo $sciname;?>"#<a href="https://sl.wikipedia.org/wiki/<?php echo $comname;?>"#g' todays_detections.php
-# sed -i 's#title="Wikipedia"#title="Svenska Wikipedia"#g' todays_detections.php
 sed -i 's/Species Total/Skupno št. vrst/g' todays_detections.php
 sed -i 's/Species Today/Število vrst danes/g' todays_detections.php
 #
@@ -137,10 +131,7 @@ sed -i 's/Sort by alphabetical/Razvrsti po abecedi/g' stats.php
 sed -i 's/Sort by occurrences/Razvrsti po prisotnosti/g' stats.php
 sed -i 's/Open in new tab/Odpri v novem zavihku/g' stats.php
 sed -i '0,/<style>/{s/<style>/<style> a:link { color: blue; } a:visited { color: blue; } a:active { color: blue; }/}' stats.php
-# Addition for Nachtzuster
-sed -i "s#wikipedia\.org/wiki/\$sciname#sl.wikipedia.org/wiki/\$comname#g" stats.php
-sed -i 's#wikipedia.org/wiki/<\?php echo \$sciname#de.wikipedia.org/wiki/<\?php echo \$comname#g' stats.php
-# sed -i 's#"Wikipedia\"#"Svenska Wikipedia\"#g' stats.php
+sed -i 's#//wikipedia\.org/wiki/\$sciname#//sl\.wikipedia\.org/wiki/\$comname#g' stats.php
 sed -i 's#wikipedia\.org/wiki/\$sciname#sl.wikipedia.org/wiki/\$comname#g' stats.php
 sed -i 's/Sort by confidence/Razvrsti po zanesljivosti/g' stats.php
 #
@@ -177,9 +168,7 @@ sed -i 's/"Today"/"Danes"/g' play.php
 sed -i 's/This file has been shifted down in frequency./Ta datoteka je bila premaknjena navzdol v frekvenci./g' play.php
 sed -i 's/This file is not shifted in frequency./Ta datoteka ni bila spremenjena v frekvenci./g' play.php
 sed -i 's/Sort by confidence/Razvrsti po zanesljivosti/g' play.php
-# Addition for Nachtzuster
-sed -i 's#wikipedia\.org/wiki/\$sciname#sl.wikipedia.org/wiki/\$name#g' play.php
-# sed -i 's#"Wikipedia\"#"Svenska Wikipedia\"#g' play.php
+sed -i 's#wikipedia\.org/wiki/\$sciname#sl\.wikipedia\.org/wiki/\$sciname#g' play.php
 sed -i 's#Change Detection#Spremeni zaznavanje#g' play.php
 sed -i 's#This file will be deleted when disk space needs to be freed.#Ta datoteka bo izbrisana, ko bo potrebno narediti prostor na disku.#g' play.php
 sed -i 's#\(>95% usage\)\.# (>95% zasedeno).#g' play.php
