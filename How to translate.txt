@@ -1,8 +1,10 @@
 Here are files for translation from English to other languages ​​in BirdNET-Pi. The translations are made with the help of AI, which means that they probably need to be corrected in some places. I would be very grateful if someone from each country could go through the files and correct what is needed.
 
+If someone wants a different language than those already available, it's fine to make your own translation and send the file to me and I'll try to add this language as well.
+
 Either create a fork of my repository and send a Pull Request or cut and paste the content and add the corrected text to an Issue.
 
-The translations for Sweden and France are verified, but modifications for the other countries are also executable, although with some reservation for translation errors.
+The translations for Sweden, France and Slovenia are verified, but modifications for the other countries are also executable, although with some reservation for translation errors.
 
 See also the document Simplified modification.PDF
 
