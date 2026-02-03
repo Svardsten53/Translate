@@ -15,7 +15,7 @@
 (function() {
   'use strict';
 
-  const I18N_VERSION = '1.0.1';
+  const I18N_VERSION = '1.0.2';
   const I18N_BASE_PATH = '/i18n/';
 
   // Default configuration (can be overridden by config.js)
@@ -278,20 +278,22 @@
 
   /**
    * Setup MutationObserver for dynamic content
+   * Uses CSS opacity trick to hide content until translated
    */
   function setupMutationObserver() {
-    let timeout = null;
     let pendingNodes = new Set();
-    let isTranslating = false; // Prevent infinite loops
+    let isTranslating = false;
+    let rafId = null;
 
     const observer = new MutationObserver((mutations) => {
-      // Skip if we're currently translating (prevents infinite loop)
       if (isTranslating) return;
 
       for (const mutation of mutations) {
         if (mutation.type === 'childList') {
           for (const node of mutation.addedNodes) {
             if (node.nodeType === Node.ELEMENT_NODE) {
+              // Immediately hide new elements to prevent flash
+              node.style.opacity = '0';
               pendingNodes.add(node);
             } else if (node.nodeType === Node.TEXT_NODE && node.nodeValue && node.nodeValue.trim()) {
               if (!shouldSkipElement(node.parentElement)) {
@@ -302,19 +304,23 @@
         }
       }
 
-      // Debounce element translations
-      if (pendingNodes.size > 0) {
-        if (timeout) clearTimeout(timeout);
-        timeout = setTimeout(() => {
+      // Use requestAnimationFrame for smoother updates
+      if (pendingNodes.size > 0 && !rafId) {
+        rafId = requestAnimationFrame(() => {
           isTranslating = true;
           for (const node of pendingNodes) {
             if (document.contains(node)) {
               translateSubtree(node);
+              // Show element after translation
+              if (node.style) {
+                node.style.opacity = '';
+              }
             }
           }
           pendingNodes.clear();
           isTranslating = false;
-        }, config.observerDebounce);
+          rafId = null;
+        });
       }
     });
 
