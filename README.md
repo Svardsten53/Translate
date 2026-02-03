@@ -36,7 +36,7 @@ A JavaScript-based internationalization (i18n) system for BirdNET-Pi that transl
 ```bash
 # Clone the repository
 cd ~
-git clone https://github.com/RonnyCHL/Translate.git
+git clone https://github.com/Svardsten53/Translate.git
 
 # Run the installer
 cd Translate
