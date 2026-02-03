@@ -286,8 +286,12 @@
   function setupMutationObserver() {
     let timeout = null;
     let pendingNodes = new Set();
+    let isTranslating = false; // Prevent infinite loops
 
     const observer = new MutationObserver((mutations) => {
+      // Skip if we're currently translating (prevents infinite loop)
+      if (isTranslating) return;
+
       for (const mutation of mutations) {
         if (mutation.type === 'childList') {
           for (const node of mutation.addedNodes) {
@@ -295,18 +299,8 @@
               pendingNodes.add(node);
             } else if (node.nodeType === Node.TEXT_NODE && node.nodeValue && node.nodeValue.trim()) {
               if (!shouldSkipElement(node.parentElement)) {
-                const translated = translateText(node.nodeValue);
-                if (translated !== node.nodeValue) {
-                  node.nodeValue = translated;
-                }
+                pendingNodes.add(node.parentElement || node);
               }
-            }
-          }
-        } else if (mutation.type === 'characterData') {
-          if (!shouldSkipElement(mutation.target.parentElement)) {
-            const translated = translateText(mutation.target.nodeValue);
-            if (translated !== mutation.target.nodeValue) {
-              mutation.target.nodeValue = translated;
             }
           }
         }
@@ -316,20 +310,21 @@
       if (pendingNodes.size > 0) {
         if (timeout) clearTimeout(timeout);
         timeout = setTimeout(() => {
+          isTranslating = true;
           for (const node of pendingNodes) {
             if (document.contains(node)) {
               translateSubtree(node);
             }
           }
           pendingNodes.clear();
+          isTranslating = false;
         }, config.observerDebounce);
       }
     });
 
     observer.observe(document.body, {
       childList: true,
-      subtree: true,
-      characterData: true
+      subtree: true
     });
 
     return observer;
@@ -377,6 +372,15 @@
    * Add flag to page title
    */
   function addFlagToTitle() {
+    if (config.debug) {
+      console.log('i18n: addFlagToTitle called', {
+        showFlag: config.showFlag,
+        flag: config.flag,
+        isParent: window.parent === window,
+        title: document.title
+      });
+    }
+
     if (!config.showFlag || !config.flag) return;
 
     // Only add flag in parent frame, not in iframes
@@ -392,6 +396,10 @@
       document.title = config.flag + ' ' + title;
     } else {
       document.title = title + ' ' + config.flag;
+    }
+
+    if (config.debug) {
+      console.log('i18n: Title updated to:', document.title);
     }
   }
 
