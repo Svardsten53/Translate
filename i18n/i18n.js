@@ -24,11 +24,7 @@
     fallbackLang: 'en',
     debug: false,
     translateDelay: 5,
-    observerDebounce: 30,
-    // Flag settings
-    showFlag: false,
-    flag: '',
-    flagPosition: 'before'
+    observerDebounce: 30
   };
 
   // Merge user config if available
@@ -368,40 +364,6 @@
     translateSubtree(document.body);
   }
 
-  /**
-   * Add flag to page title
-   */
-  function addFlagToTitle() {
-    if (config.debug) {
-      console.log('i18n: addFlagToTitle called', {
-        showFlag: config.showFlag,
-        flag: config.flag,
-        isParent: window.parent === window,
-        title: document.title
-      });
-    }
-
-    if (!config.showFlag || !config.flag) return;
-
-    // Only add flag in parent frame, not in iframes
-    if (window.parent !== window) return;
-
-    const title = document.title;
-    if (!title) return;
-
-    // Don't add if flag is already present
-    if (title.includes(config.flag)) return;
-
-    if (config.flagPosition === 'before') {
-      document.title = config.flag + ' ' + title;
-    } else {
-      document.title = title + ' ' + config.flag;
-    }
-
-    if (config.debug) {
-      console.log('i18n: Title updated to:', document.title);
-    }
-  }
 
   /**
    * Main initialization
@@ -432,7 +394,6 @@
     // Initial translation with slight delay to ensure DOM is ready
     setTimeout(() => {
       translateSubtree(document.body);
-      addFlagToTitle();
     }, config.translateDelay);
 
     // Setup observer for dynamic content
