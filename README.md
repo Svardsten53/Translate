@@ -93,31 +93,45 @@ The system uses client-side JavaScript to translate text:
 - **500+ translations**: Covers all UI elements, menus, buttons, messages
 - **Pattern matching**: Handles dynamic text like dates and numbers
 
-## Configuration
+## Configuration (Flag & Language)
 
-After installation, you can customize the system by editing `config.js` in your BirdNET-Pi's `i18n/` folder:
+After installation, you can add a national flag to the page title and change settings.
 
-```javascript
-window.BIRDNET_I18N_CONFIG = {
-  // Default language
-  defaultLang: 'nl',
+### How to add a flag
 
-  // Show flag in page title?
-  showFlag: true,
+1. Open the config file on your BirdNET-Pi:
+   ```bash
+   nano ~/BirdNET-Pi/i18n/config.js
+   ```
 
-  // Flag emoji to display
-  // Examples: '🇳🇱' '🇸🇪' '🇩🇪' '🇫🇷' '🇵🇱' '🇫🇮' '🇩🇰' '🇬🇧' '🇧🇪' '🇦🇹' '🇨🇭'
-  flag: '🇳🇱',
+2. Change these settings:
+   ```javascript
+   window.BIRDNET_I18N_CONFIG = {
+     defaultLang: 'nl',      // Your language code
 
-  // Where to put the flag: 'before' or 'after' the title
-  flagPosition: 'before',
+     showFlag: true,         // Set to true to show flag
+     flag: '🇳🇱',            // Your flag emoji (see list below)
+     flagPosition: 'before', // 'before' or 'after' the title
 
-  // Enable debug logging
-  debug: false
-};
-```
+     debug: false
+   };
+   ```
 
-After editing, refresh your browser to see the changes.
+3. Save the file (Ctrl+O, Enter, Ctrl+X) and refresh your browser.
+
+### Available flags
+
+| Country | Flag | Country | Flag |
+|---------|------|---------|------|
+| Netherlands | 🇳🇱 | Belgium | 🇧🇪 |
+| Sweden | 🇸🇪 | Germany | 🇩🇪 |
+| France | 🇫🇷 | Poland | 🇵🇱 |
+| Finland | 🇫🇮 | Denmark | 🇩🇰 |
+| UK | 🇬🇧 | Austria | 🇦🇹 |
+| Switzerland | 🇨🇭 | Norway | 🇳🇴 |
+| Italy | 🇮🇹 | Spain | 🇪🇸 |
+
+Just copy-paste the flag emoji you want into the config file.
 
 ## Adding a New Language
 
