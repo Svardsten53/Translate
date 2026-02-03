@@ -107,15 +107,15 @@ VIEWS_FILE="$BIRDNET_HOME/homepage/views.php"
 echo "Checking and restoring script tags..."
 echo ""
 
-# Restore i18n.js
-restore_script_tag "$INDEX_FILE" "$SCRIPT_TAG" "i18n.js"
-restore_script_tag "$VIEWS_FILE" "$SCRIPT_TAG" "i18n.js"
-
-# Restore config.js (if it exists)
+# Restore config.js FIRST (must load before i18n.js)
 if [ -f "$I18N_DIR/config.js" ]; then
     restore_script_tag "$INDEX_FILE" "$CONFIG_SCRIPT_TAG" "config.js"
     restore_script_tag "$VIEWS_FILE" "$CONFIG_SCRIPT_TAG" "config.js"
 fi
+
+# Then restore i18n.js
+restore_script_tag "$INDEX_FILE" "$SCRIPT_TAG" "i18n.js"
+restore_script_tag "$VIEWS_FILE" "$SCRIPT_TAG" "i18n.js"
 
 echo ""
 echo -e "${GREEN}Update complete!${NC}"

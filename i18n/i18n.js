@@ -15,17 +15,26 @@
 (function() {
   'use strict';
 
-  const I18N_VERSION = '1.0.0';
+  const I18N_VERSION = '1.0.1';
   const I18N_BASE_PATH = '/i18n/';
 
-  // Configuration
+  // Default configuration (can be overridden by config.js)
   const config = {
     defaultLang: 'nl',
     fallbackLang: 'en',
     debug: false,
     translateDelay: 5,
-    observerDebounce: 30
+    observerDebounce: 30,
+    // Flag settings
+    showFlag: false,
+    flag: '',
+    flagPosition: 'before'
   };
+
+  // Merge user config if available
+  if (window.BIRDNET_I18N_CONFIG) {
+    Object.assign(config, window.BIRDNET_I18N_CONFIG);
+  }
 
   let translations = {};
   let patterns = {};
@@ -365,6 +374,28 @@
   }
 
   /**
+   * Add flag to page title
+   */
+  function addFlagToTitle() {
+    if (!config.showFlag || !config.flag) return;
+
+    // Only add flag in parent frame, not in iframes
+    if (window.parent !== window) return;
+
+    const title = document.title;
+    if (!title) return;
+
+    // Don't add if flag is already present
+    if (title.includes(config.flag)) return;
+
+    if (config.flagPosition === 'before') {
+      document.title = config.flag + ' ' + title;
+    } else {
+      document.title = title + ' ' + config.flag;
+    }
+  }
+
+  /**
    * Main initialization
    */
   async function init() {
@@ -393,6 +424,7 @@
     // Initial translation with slight delay to ensure DOM is ready
     setTimeout(() => {
       translateSubtree(document.body);
+      addFlagToTitle();
     }, config.translateDelay);
 
     // Setup observer for dynamic content

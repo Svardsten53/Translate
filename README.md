@@ -93,6 +93,32 @@ The system uses client-side JavaScript to translate text:
 - **500+ translations**: Covers all UI elements, menus, buttons, messages
 - **Pattern matching**: Handles dynamic text like dates and numbers
 
+## Configuration
+
+After installation, you can customize the system by editing `config.js` in your BirdNET-Pi's `i18n/` folder:
+
+```javascript
+window.BIRDNET_I18N_CONFIG = {
+  // Default language
+  defaultLang: 'nl',
+
+  // Show flag in page title?
+  showFlag: true,
+
+  // Flag emoji to display
+  // Examples: '🇳🇱' '🇸🇪' '🇩🇪' '🇫🇷' '🇵🇱' '🇫🇮' '🇩🇰' '🇬🇧' '🇧🇪' '🇦🇹' '🇨🇭'
+  flag: '🇳🇱',
+
+  // Where to put the flag: 'before' or 'after' the title
+  flagPosition: 'before',
+
+  // Enable debug logging
+  debug: false
+};
+```
+
+After editing, refresh your browser to see the changes.
+
 ## Adding a New Language
 
 1. Copy an existing language file:
@@ -124,6 +150,7 @@ The system uses client-side JavaScript to translate text:
 Translate/
 ├── i18n/
 │   ├── i18n.js              # Main translation engine
+│   ├── config.js            # Configuration (flag, language, etc.)
 │   └── langs/
 │       ├── nl.json          # Dutch
 │       ├── sv.json          # Swedish
