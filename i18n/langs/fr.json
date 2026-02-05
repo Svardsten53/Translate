@@ -362,7 +362,7 @@
     "Set your Latitude and Longitude to 4 decimal places. Get your coordinates": "Définissez votre latitude et longitude avec 4 décimales. Obtenez vos coordonnées",
     "Privacy Threshold": "Seuil de Confidentialité",
     "Value:": "Valeur:",
-    "If a Human is predicted anywhere among the top 10 predictions, the sample will be considered of human origin and no data will be collected. Start with 1% and move up as needed.": "Si un humain est prédit parmi les 10 meilleures prédictions, l'échantillon sera considéré comme d'origine humaine et aucune donnée ne sera collectée. Commencez par 1% et augmentez si nécessaire.",
+    "If a Human is predicted anywhere among the top 10 predictions, the sample will be considered of human origin and no data will be collected. Start with 1% and move up as needed.": "Si un humain est prédit dans les 10 meilleures prédictions, l'échantillon sera considéré d'origine humaine et aucune donnée ne sera collectée. Commencez à 1% et augmentez si nécessaire.",
     "Disk Management": "Gestion du Disque",
     "Purge": "Purger",
     "Keep": "Conserver",
@@ -374,7 +374,7 @@
     "Number of files to keep for each species :": "Nombre de fichiers à conserver pour chaque espèce:",
     "Number of files to keep for each species:": "Nombre de fichiers à conserver pour chaque espèce:",
     "If different than 0 (keep all), defines the number of files to keep for each species, with priority given to files with higher confidence. This value does not include files from the last 7 days, these new files are protected against auto-deletion.": "Si différent de 0 (tout conserver), définit le nombre de fichiers à conserver pour chaque espèce, avec priorité aux fichiers avec une confiance plus élevée. Cette valeur n'inclut pas les fichiers des 7 derniers jours, ces nouveaux fichiers sont protégés contre la suppression automatique.",
-    "Note only the spectrogram and audio files are deleted, the observation data remains in the database. The files protected through the \"lock\" icon are also not affected.": "Note: seuls les fichiers spectrogramme et audio sont supprimés, les données d'observation restent dans la base de données. Les fichiers protégés par l'icône \"cadenas\" ne sont pas non plus affectés.",
+    "Note only the spectrogram and audio files are deleted, the observation data remains in the database. The files protected through the \"lock\" icon are also not affected.": "Seuls les fichiers spectrogramme et audio sont supprimés, les données d'observation restent dans la base de données. Les fichiers protégés par l'icône \"cadenas\" ne sont pas non plus affectés.",
     "Click here for disk usage summary": "Cliquez ici pour un résumé de l'utilisation du disque",
     "[Click here for disk usage summary]": "[Cliquez ici pour un résumé de l'utilisation du disque]",
     "Audio Card:": "Carte Audio:",
@@ -439,14 +439,14 @@
     "Live Audio Stream:": "Flux Audio en Direct:",
     "Spectrogram Service:": "Service Spectrogramme:",
     "Errors Only": "Erreurs Uniquement",
-    "'error' - Show all errors, including ones which can be recovered from. This is the default value.": "'error' - Affiche toutes les erreurs, y compris celles récupérables. C'est la valeur par défaut.",
-    "'warning' - Show all warnings and errors. Any message related to possibly incorrect or unexpected events will be shown.": "'warning' - Affiche tous les avertissements et erreurs. Tout message lié à des événements possiblement incorrects ou inattendus sera affiché.",
-    "'info' - Show informative messages and output during processing. This is in addition to warnings and errors. This will produce more output, use this for initial debugging.": "'info' - Affiche des messages informatifs et la sortie pendant le traitement. C'est en plus des avertissements et erreurs. Cela produira plus de sortie, utilisez ceci pour le débogage initial.",
-    "'debug' - Show everything, including debugging information. Produces a lot of output.": "'debug' - Affiche tout, y compris les informations de débogage. Produit beaucoup de sortie.",
+    "'error' - Show all errors, including ones which can be recovered from. This is the default value.": "'error' - Afficher toutes les erreurs, y compris les récupérables. C'est la valeur par défaut.",
+    "'warning' - Show all warnings and errors. Any message related to possibly incorrect or unexpected events will be shown.": "'warning' - Afficher tous les avertissements et erreurs.",
+    "'info' - Show informative messages and output during processing. This is in addition to warnings and errors. This will produce more output, use this for initial debugging.": "'info' - Afficher les messages informatifs et la sortie pendant le traitement.",
+    "'debug' - Show everything, including debugging information. Produces a lot of output.": "'debug' - Tout afficher, y compris les informations de débogage.",
     "sox": "sox",
     "ffmpeg": "ffmpeg",
     "default": "défaut",
-    "Note: It is recommended that the Log Level be set to Error on production systems to keep output manageable, by only reporting errors.": "Note: Il est recommandé de définir le niveau de journal sur Erreur sur les systèmes de production pour garder la sortie gérable, en ne rapportant que les erreurs.",
+    "Note: It is recommended that the Log Level be set to Error on production systems to keep output manageable, by only reporting errors.": "Remarque: Il est recommandé de régler le niveau de journal sur Erreur dans les systèmes de production.",
     "error": "erreur",
     "warning": "avertissement",
     "info": "info",
@@ -495,7 +495,9 @@
     "Top 10 Species:": "Top 10 Espèces:",
     "Species Detected for the First Time:": "Espèces Détectées pour la Première Fois:",
     "* percentages are calculated relative to week": "* les pourcentages sont calculés par rapport à la semaine",
-    "Recording not available": "Enregistrement non disponible"
+    "Recording not available": "Enregistrement non disponible",
+    "new species detected today!": "nouvelles espèces détectées aujourd'hui!",
+    "rare species detected today!": "espèces rares détectées aujourd'hui!"
   },
   "patterns": {
     "^(\\d+) detected today!$": "$1 détectées aujourd'hui!",
@@ -505,6 +507,10 @@
     "^(\\d+) days? ago$": "il y a $1 jours",
     "^(\\d+) mo ago$": "il y a $1 mois",
     "^(\\d+) d ago$": "il y a $1 jours",
-    "^No Charts [Ff]or (.+)$": "Pas de Graphiques pour $1"
+    "^No Charts [Ff]or (.+)$": "Pas de Graphiques pour $1",
+    "^(\\d+) new species detected today!$": "$1 nouvelles espèces détectées aujourd'hui!",
+    "^(\\d+) rare species detected today!$": "$1 espèces rares détectées aujourd'hui!",
+    "^Week (\\d+) Report$": "Semaine $1 Rapport",
+    "^\\* percentages are calculated relative to week (\\d+)$": "* les pourcentages sont calculés par rapport à la semaine $1"
   }
 }

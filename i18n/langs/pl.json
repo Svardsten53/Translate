@@ -393,7 +393,20 @@
     "Top 10 Species:": "Top 10 Gatunków:",
     "Species Detected for the First Time:": "Gatunki Wykryte po Raz Pierwszy:",
     "* percentages are calculated relative to week": "* procenty są obliczane względem tygodnia",
-    "Recording not available": "Nagranie niedostępne"
+    "Recording not available": "Nagranie niedostępne",
+    "new species detected today!": "nowych gatunków wykrytych dzisiaj!",
+    "rare species detected today!": "rzadkich gatunków wykrytych dzisiaj!",
+    "If a Human is predicted anywhere among the top 10 predictions, the sample will be considered of human origin and no data will be collected. Start with 1% and move up as needed.": "Jeśli człowiek zostanie przewidziany wśród 10 najlepszych prognoz, próbka zostanie uznana za pochodzenia ludzkiego i żadne dane nie zostaną zebrane. Zacznij od 1% i zwiększaj w razie potrzeby.",
+    "Note only the spectrogram and audio files are deleted, the observation data remains in the database. The files protected through the \"lock\" icon are also not affected.": "Tylko pliki spektrogramu i audio są usuwane, dane obserwacyjne pozostają w bazie danych. Pliki chronione ikoną \"kłódki\" również nie są dotknięte.",
+    "Analyze ffmpeg CPU/Memory usage with top or htop if necessary.": "Analizuj użycie CPU/pamięci ffmpeg za pomocą top lub htop w razie potrzeby.",
+    "The BirdNET-Pi URL is how the main page will be reached. If you want your installation to respond to an IP address, place that here, but be sure to indicate \"http://\".": "URL BirdNET-Pi określa sposób dostępu do strony głównej. Jeśli chcesz, aby instalacja odpowiadała na adres IP, umieść go tutaj, ale upewnij się, że podajesz \"http://\".",
+    "Using ffmpeg: e.g. origin=6000, target=4000, performs a shift of 2000 Hz down.": "Używając ffmpeg: np. origin=6000, target=4000, wykonuje przesunięcie o 2000 Hz w dół.",
+    "Using sox: e.g. shiftPitch=-1200 performs a shift of 1 octave down. This value is in 100ths of a semitone.": "Używając sox: np. shiftPitch=-1200 wykonuje przesunięcie o 1 oktawę w dół. Ta wartość jest w setnych półtonu.",
+    "Note: It is recommended that the Log Level be set to Error on production systems to keep output manageable, by only reporting errors.": "Uwaga: Zaleca się ustawienie poziomu logowania na Błąd w systemach produkcyjnych.",
+    "'error' - Show all errors, including ones which can be recovered from. This is the default value.": "'error' - Pokaż wszystkie błędy, w tym te, z których można się odzyskać. To jest wartość domyślna.",
+    "'warning' - Show all warnings and errors. Any message related to possibly incorrect or unexpected events will be shown.": "'warning' - Pokaż wszystkie ostrzeżenia i błędy.",
+    "'info' - Show informative messages and output during processing. This is in addition to warnings and errors. This will produce more output, use this for initial debugging.": "'info' - Pokaż komunikaty informacyjne i dane wyjściowe podczas przetwarzania.",
+    "'debug' - Show everything, including debugging information. Produces a lot of output.": "'debug' - Pokaż wszystko, w tym informacje debugowania."
   },
   "patterns": {
     "^(\\d+) detected today!$": "$1 wykrytych dzisiaj!",
@@ -403,6 +416,10 @@
     "^(\\d+) days? ago$": "$1 dni temu",
     "^(\\d+) mo ago$": "$1 miesięcy temu",
     "^(\\d+) d ago$": "$1 dni temu",
-    "^No Charts [Ff]or (.+)$": "Brak Wykresów dla $1"
+    "^No Charts [Ff]or (.+)$": "Brak Wykresów dla $1",
+    "^(\\d+) new species detected today!$": "$1 nowych gatunków wykrytych dzisiaj!",
+    "^(\\d+) rare species detected today!$": "$1 rzadkich gatunków wykrytych dzisiaj!",
+    "^Week (\\d+) Report$": "Tydzień $1 Raport",
+    "^\\* percentages are calculated relative to week (\\d+)$": "* procenty są obliczane względem tygodnia $1"
   }
 }

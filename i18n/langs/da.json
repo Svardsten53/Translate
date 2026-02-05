@@ -378,7 +378,20 @@
     "Species Detected for the First Time:": "Arter Opdaget for Første Gang:",
     "* percentages are calculated relative to week": "* procenter beregnes i forhold til uge",
     "Recording not available": "Optagelse ikke tilgængelig",
-    "Which bird would you like to explore for the dates": "Hvilken fugl vil du udforske for datoerne"
+    "Which bird would you like to explore for the dates": "Hvilken fugl vil du udforske for datoerne",
+    "new species detected today!": "nye arter opdaget i dag!",
+    "rare species detected today!": "sjældne arter opdaget i dag!",
+    "If a Human is predicted anywhere among the top 10 predictions, the sample will be considered of human origin and no data will be collected. Start with 1% and move up as needed.": "Hvis et menneske forudsiges blandt de 10 bedste forudsigelser, betragtes prøven som menneskelig og ingen data indsamles. Start med 1% og øg efter behov.",
+    "Note only the spectrogram and audio files are deleted, the observation data remains in the database. The files protected through the \"lock\" icon are also not affected.": "Kun spektrogram- og lydfiler slettes, observationsdata forbliver i databasen. Filer beskyttet med \"lås\"-ikonet påvirkes heller ikke.",
+    "Analyze ffmpeg CPU/Memory usage with top or htop if necessary.": "Analyser ffmpeg CPU/hukommelsesforbrug med top eller htop om nødvendigt.",
+    "The BirdNET-Pi URL is how the main page will be reached. If you want your installation to respond to an IP address, place that here, but be sure to indicate \"http://\".": "BirdNET-Pi URL'en bestemmer, hvordan hovedsiden nås. Hvis du vil have din installation til at svare på en IP-adresse, skal du angive den her, men sørg for at angive \"http://\".",
+    "Using ffmpeg: e.g. origin=6000, target=4000, performs a shift of 2000 Hz down.": "Med ffmpeg: f.eks. origin=6000, target=4000, udfører et skift på 2000 Hz ned.",
+    "Using sox: e.g. shiftPitch=-1200 performs a shift of 1 octave down. This value is in 100ths of a semitone.": "Med sox: f.eks. shiftPitch=-1200 udfører et skift på 1 oktav ned. Denne værdi er i hundrededele af en halvtone.",
+    "Note: It is recommended that the Log Level be set to Error on production systems to keep output manageable, by only reporting errors.": "Bemærk: Det anbefales at sætte logniveauet til Fejl i produktionssystemer for at holde output overskueligt.",
+    "'error' - Show all errors, including ones which can be recovered from. This is the default value.": "'error' - Vis alle fejl, inklusive genoprettelige. Dette er standardværdien.",
+    "'warning' - Show all warnings and errors. Any message related to possibly incorrect or unexpected events will be shown.": "'warning' - Vis alle advarsler og fejl.",
+    "'info' - Show informative messages and output during processing. This is in addition to warnings and errors. This will produce more output, use this for initial debugging.": "'info' - Vis informative meddelelser og output under behandling.",
+    "'debug' - Show everything, including debugging information. Produces a lot of output.": "'debug' - Vis alt, inklusive fejlsøgningsinformation."
   },
   "patterns": {
     "^(\\d+) detected today!$": "$1 registreret i dag!",
@@ -388,6 +401,10 @@
     "^(\\d+) days? ago$": "for $1 dage siden",
     "^(\\d+) mo ago$": "for $1 måneder siden",
     "^(\\d+) d ago$": "for $1 dage siden",
-    "^No Charts [Ff]or (.+)$": "Ingen Diagrammer for $1"
+    "^No Charts [Ff]or (.+)$": "Ingen Diagrammer for $1",
+    "^(\\d+) new species detected today!$": "$1 nye arter opdaget i dag!",
+    "^(\\d+) rare species detected today!$": "$1 sjældne arter opdaget i dag!",
+    "^Week (\\d+) Report$": "Uge $1 Rapport",
+    "^\\* percentages are calculated relative to week (\\d+)$": "* procenter beregnes i forhold til uge $1"
   }
 }
