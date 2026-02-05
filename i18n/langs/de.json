@@ -21,13 +21,11 @@
     "Links": "Links",
     "Live Audio": "Live-Audio",
     "Settings": "Einstellungen",
-
     "You cannot listen to the live audio stream": "Sie können den Live-Audiostream nicht anhören",
     "You cannot edit the settings for this installation": "Sie können die Einstellungen für diese Installation nicht bearbeiten",
     "WARNING: Your latitude and longitude are not set properly. Please do so now in Tools -> Settings.": "WARNUNG: Ihr Breitengrad und Längengrad sind nicht korrekt eingestellt. Bitte tun Sie dies jetzt unter Werkzeuge -> Einstellungen.",
     "WARNING: Your latitude is not set properly. Please do so now in Tools -> Settings.": "WARNUNG: Ihr Breitengrad ist nicht korrekt eingestellt. Bitte tun Sie dies jetzt unter Werkzeuge -> Einstellungen.",
     "WARNING: Your longitude is not set properly. Please do so now in Tools -> Settings.": "WARNUNG: Ihr Längengrad ist nicht korrekt eingestellt. Bitte tun Sie dies jetzt unter Werkzeuge -> Einstellungen.",
-
     "Total": "Gesamt",
     "Today": "Heute",
     "Last Hour": "Letzte Stunde",
@@ -58,7 +56,6 @@
     "mo ago": "Monate her",
     "d ago": "Tage her",
     "Open Today's recordings page": "Heutige Aufnahmen öffnen",
-
     "Number of Detections": "Anzahl der Erkennungen",
     "Unique Species Total": "Einzigartige Arten Gesamt",
     "Unique Species Today": "Einzigartige Arten Heute",
@@ -67,7 +64,6 @@
     "Normal view": "Normale Ansicht",
     "Search...": "Suchen...",
     "Delete Detection": "Erkennung Löschen",
-
     "Choose a species to load images from Wikimedia Commons": "Wählen Sie eine Art, um Bilder von Wikimedia Commons zu laden",
     "Occurrences:": "Vorkommen:",
     "Max Confidence:": "Maximale Konfidenz:",
@@ -79,14 +75,12 @@
     "Sort by alphabetical": "Alphabetisch sortieren",
     "Sort by occurrences": "Nach Vorkommen sortieren",
     "Sort by confidence": "Nach Konfidenz sortieren",
-
     "Submit Date": "Datum Absenden",
     "Total Detections For The Day": "Gesamte Erkennungen des Tages",
     "No Charts for": "Keine Diagramme für",
     "No Charts for ": "Keine Diagramme für ",
     "No Charts For": "Keine Diagramme Für",
     "No Charts For ": "Keine Diagramme Für ",
-
     "Sort by date": "Nach Datum sortieren",
     "By Species": "Nach Art",
     "By Date": "Nach Datum",
@@ -108,16 +102,13 @@
     "Change Detection": "Erkennung Ändern",
     "This file will be deleted when disk space needs to be freed.": "Diese Datei wird gelöscht, wenn Speicherplatz benötigt wird.",
     "(>95% usage).": "(>95% Nutzung).",
-
     "Gain:": "Verstärkung:",
     "Compression:": "Kompression:",
     "Freq shift:": "Frequenzverschiebung:",
-
     "Detections": "Erkennungen",
     "Hour of Day": "Stunde des Tages",
     "All": "Alle",
     "Last Updated:": "Zuletzt Aktualisiert:",
-
     "Single Day View": "Einzeltagesansicht",
     "Resample Resolution": "Neuabtastauflösung",
     "Select resolution for species - DAILY provides time series": "Auflösung für Arten wählen - TÄGLICH liefert Zeitreihen",
@@ -129,7 +120,7 @@
     "DAILY": "TÄGLICH",
     "Which bird would you like to explore for the dates": "Welchen Vogel möchten Sie für die Daten erkunden",
     "Species in Date Range": "Arten im Datumsbereich",
-    "Total Detect:": "Gesamte Erkennungen:",
+    "Total Detect:": "Gesamt Erkannt:",
     "Download plot as a png": "Diagramm als PNG herunterladen",
     "Zoom": "Zoom",
     "Pan": "Schwenken",
@@ -140,7 +131,7 @@
     "Auto scale": "Automatisch skalieren",
     "Reset views": "Ansichten zurücksetzen",
     "Produced with Plotly": "Erstellt mit Plotly",
-    "Confidence Max:": "Maximale Konfidenz:",
+    "Confidence Max:": "Max Sicherheit:",
     "Reviewed": "Überprüft",
     "Available recordings": "Verfügbare Aufnahmen",
     "View fullscreen": "Vollbild anzeigen",
@@ -158,7 +149,6 @@
     "Date Range": "Datumsbereich",
     "Select Color Pallet for Daily Detections": "Farbpalette für Tägliche Erkennungen Wählen",
     "Species For": "Arten für",
-
     "Program-related links": "Programmbezogene Links",
     "Program source": "Programmquellcode",
     "Wiki help page": "Wiki-Hilfeseite",
@@ -166,14 +156,12 @@
     "Own links": "Eigene Links",
     "Other BirdNET-Pi": "Andere BirdNET-Pi",
     "Please email if you have any questions or would like to do your own installation": "Bitte senden Sie eine E-Mail, wenn Sie Fragen haben oder eine eigene Installation durchführen möchten",
-
     "Report week": "Berichtswoche",
     "Top 10 Species": "Top 10 Arten",
     "Species Detected for the First Time": "Zum Ersten Mal Erkannte Arten",
     "No new species were seen this week": "Diese Woche wurden keine neuen Arten gesehen",
     "No new species were seen this week.": "Diese Woche wurden keine neuen Arten gesehen.",
     "percentages are calculated relative to week": "Prozentsätze werden relativ zur Woche berechnet",
-
     "System Info": "Systeminformation",
     "System Controls": "Systemsteuerung",
     "Services": "Dienste",
@@ -235,7 +223,6 @@
     "Pause": "Pause",
     "Mute": "Stumm",
     "Unmute": "Ton An",
-
     "Basic Settings": "Grundeinstellungen",
     "Update Settings": "Einstellungen Aktualisieren",
     "Advanced Settings": "Erweiterte Einstellungen",
@@ -303,7 +290,6 @@
     "Enable debug mode": "Debug-Modus aktivieren",
     "Silence Update Indicator": "Update-Anzeige Ausblenden",
     "This setting will hide the update indicator": "Diese Einstellung blendet die Update-Anzeige aus",
-
     "can be setup and enabled for 90+ notification services. Each service should be on its own line.": "kann für 90+ Benachrichtigungsdienste konfiguriert werden. Jeder Dienst sollte in einer eigenen Zeile stehen.",
     "Use the variables defined above to customize your notification title and body.": "Verwenden Sie die oben definierten Variablen, um Ihren Benachrichtigungstitel und -inhalt anzupassen.",
     "A masked link to the detection. Only useful for services that support Markdown (e.g. Discord).": "Ein maskierter Link zur Erkennung. Nur nützlich für Dienste, die Markdown unterstützen (z.B. Discord).",
@@ -326,7 +312,6 @@
     "Species Occurrence Frequency Threshold": "Schwellenwert für Artenvorkommenshäufigkeit",
     "Species Occurrence Frequency Threshold [0.0005, 0.99]:": "Schwellenwert für Artenvorkommenshäufigkeit [0.0005, 0.99]:",
     "more info": "mehr Info",
-
     "Bird Photo Source": "Vogelfoto-Quelle",
     "Image Provider:": "Bildanbieter:",
     "Wikipedia": "Wikipedia",
@@ -337,14 +322,12 @@
     "ebirds.org has more European species": "ebirds.org hat mehr europäische Arten",
     "Site to pull additional species info from:": "Website für zusätzliche Arteninformationen:",
     "Additional Info": "Zusätzliche Informationen",
-
     "Localization": "Lokalisierung",
     "Color scheme": "Farbschema",
     "Color scheme for the site :": "Farbschema für die Website:",
     "Select a Timezone:": "Zeitzone Auswählen:",
     "Time and Date": "Zeit und Datum",
     "If connected to the internet, retrieve time automatically?": "Wenn mit dem Internet verbunden, Zeit automatisch abrufen?",
-
     "Notify each new detection": "Bei jeder neuen Erkennung benachrichtigen",
     "Minimum time between notifications of the same species (sec):": "Mindestzeit zwischen Benachrichtigungen derselben Art (Sek.):",
     "Send Test Notification": "Testbenachrichtigung Senden",
@@ -353,131 +336,102 @@
     "Only modify this at initial setup": "Nur bei der Ersteinrichtung ändern",
     "weekly report": "Wochenbericht",
     "Send": "Senden",
-
     "you can use this tool:": "können Sie dieses Werkzeug verwenden:",
     "Latitude": "Breitengrad",
     "Longitude": "Längengrad",
     "set in": "eingestellt in",
-
     "Settings successfully updated": "Einstellungen erfolgreich aktualisiert",
     "Test notification sent": "Testbenachrichtigung gesendet",
     "Species list updated": "Artenliste aktualisiert",
     "Password changed successfully": "Passwort erfolgreich geändert",
     "Invalid password": "Ungültiges Passwort",
     "Passwords do not match": "Passwörter stimmen nicht überein",
-
     "Set your Flickr API key to enable the display of bird images next to detections.": "Stellen Sie Ihren Flickr API-Schlüssel ein, um Vogelbilder neben Erkennungen anzuzeigen.",
     "Note: when changing themes the daily chart may need a page refresh before updating.": "Hinweis: Beim Ändern von Themes muss das Tagesdiagramm möglicherweise aktualisiert werden.",
     "! Only modify this at initial setup !": "! Nur bei der Ersteinrichtung ändern !",
     "allaboutbirds.org default": "allaboutbirds.org Standard",
-
     "Notify each new infrequent species detection (<5 visits per week)": "Bei jeder neuen seltenen Artenerkennung benachrichtigen (<5 Besuche pro Woche)",
     "Send weekly report": "Wochenbericht senden",
     "New BirdNET-Pi Detection": "Neue BirdNET-Pi Erkennung",
     "was just detected with a confidence of": "wurde gerade erkannt mit einer Konfidenz von",
-
     "A": "Ein",
     "Get your coordinates": "Holen Sie sich Ihre Koordinaten",
-
     "Minimum Confidence set in \"Advanced Settings\"": "Minimale Konfidenz eingestellt in \"Erweiterte Einstellungen\"",
     "Sigmoid Sensitivity set in \"Advanced Settings\"": "Sigmoid Empfindlichkeit eingestellt in \"Erweiterte Einstellungen\"",
     "Overlap set in \"Advanced Settings\"": "Überlappung eingestellt in \"Erweiterte Einstellungen\"",
     "Set your Latitude and Longitude to 4 decimal places. Get your coordinates": "Stellen Sie Ihren Breitengrad und Längengrad auf 4 Dezimalstellen ein. Holen Sie sich Ihre Koordinaten",
-
     "Privacy Threshold": "Datenschutz-Schwellenwert",
     "Value:": "Wert:",
     "If a Human is predicted anywhere among the top 10 predictions, the sample will be considered of human origin and no data will be collected. Start with 1% and move up as needed.": "Wenn ein Mensch in den Top 10 Vorhersagen vorhergesagt wird, wird die Probe als menschlichen Ursprungs betrachtet und keine Daten werden gesammelt. Beginnen Sie mit 1% und erhöhen Sie bei Bedarf.",
-
     "Disk Management": "Festplattenverwaltung",
     "Purge": "Bereinigen",
     "Keep": "Behalten",
     "When the disk becomes full, you can choose to 'purge' old files to make room for new ones or 'keep' your data and stop all services instead.": "Wenn die Festplatte voll wird, können Sie wählen, alte Dateien zu 'bereinigen', um Platz für neue zu schaffen, oder Ihre Daten zu 'behalten' und stattdessen alle Dienste zu stoppen.",
     "Note: you can exclude specific files from 'purge' on the Recordings page.": "Hinweis: Sie können bestimmte Dateien auf der Aufnahmeseite von der 'Bereinigung' ausschließen.",
-
     "Purge Threshold (Disk Used %):": "Bereinigungs-Schwellenwert (Festplatte Verwendet %):",
     "Defines how full the disk should be before the purge operations occur.": "Definiert, wie voll die Festplatte sein soll, bevor Bereinigungsoperationen stattfinden.",
     "Note: This variable is still active if Keep is set. This means that the servies will be stopped at the purge threshold.": "Hinweis: Diese Variable ist noch aktiv, wenn Behalten eingestellt ist. Dies bedeutet, dass die Dienste beim Bereinigungs-Schwellenwert gestoppt werden.",
-
     "Number of files to keep for each species :": "Anzahl der Dateien, die für jede Art aufbewahrt werden sollen:",
     "Number of files to keep for each species:": "Anzahl der Dateien, die für jede Art aufbewahrt werden sollen:",
     "If different than 0 (keep all), defines the number of files to keep for each species, with priority given to files with higher confidence. This value does not include files from the last 7 days, these new files are protected against auto-deletion.": "Wenn anders als 0 (alle behalten), definiert die Anzahl der Dateien, die für jede Art aufbewahrt werden sollen, mit Priorität für Dateien mit höherer Konfidenz. Dieser Wert schließt keine Dateien der letzten 7 Tage ein, diese neuen Dateien sind vor automatischer Löschung geschützt.",
     "Note only the spectrogram and audio files are deleted, the observation data remains in the database. The files protected through the \"lock\" icon are also not affected.": "Hinweis: Nur die Spektrogramm- und Audiodateien werden gelöscht, die Beobachtungsdaten bleiben in der Datenbank. Die durch das \"Schloss\"-Symbol geschützten Dateien werden ebenfalls nicht beeinflusst.",
     "Click here for disk usage summary": "Klicken Sie hier für eine Zusammenfassung der Festplattennutzung",
     "[Click here for disk usage summary]": "[Klicken Sie hier für eine Zusammenfassung der Festplattennutzung]",
-
     "Audio Card:": "Soundkarte:",
     "Set Audio Card to 'default' to use PulseAudio (always recommended), or an ALSA recognized sound card device from the output of `arecord -L`. Choose the `dsnoop` device if it is available.": "Stellen Sie die Soundkarte auf 'default', um PulseAudio zu verwenden (immer empfohlen), oder ein ALSA-erkanntes Soundkartengerät aus der Ausgabe von `arecord -L`. Wählen Sie das `dsnoop`-Gerät, wenn es verfügbar ist.",
-
     "Audio Channels:": "Audio-Kanäle:",
     "Set Channels to the number of channels supported by your sound card. 32 max.": "Stellen Sie die Kanäle auf die Anzahl der von Ihrer Soundkarte unterstützten Kanäle ein. Maximal 32.",
-
     "Set Recording Length in seconds between 6 and 60. Multiples of 3 are recommended, as BirdNET analyzes in 3-second chunks.": "Stellen Sie die Aufnahmelänge in Sekunden zwischen 6 und 60 ein. Vielfache von 3 werden empfohlen, da BirdNET in 3-Sekunden-Blöcken analysiert.",
-
     "Set Extraction Length to something less than your Recording Length. Min=3 Max=Recording Length": "Stellen Sie die Extraktionslänge auf etwas weniger als Ihre Aufnahmelänge ein. Min=3 Max=Aufnahmelänge",
-
     "Extractions Audio Format": "Extraktions-Audioformat",
     "mp3": "mp3",
-
     "RTSP Stream:": "RTSP-Stream:",
     "If you place an RTSP stream URL here, BirdNET-Pi will use that as its audio source.": "Wenn Sie hier eine RTSP-Stream-URL eingeben, verwendet BirdNET-Pi diese als Audioquelle.",
     "Multiple streams are allowed but may have a impact on rPi performance.": "Mehrere Streams sind erlaubt, können aber die rPi-Leistung beeinträchtigen.",
     "Analyze ffmpeg CPU/Memory usage with top or htop if necessary.": "Analysieren Sie bei Bedarf die ffmpeg CPU/Speichernutzung mit top oder htop.",
     "To remove all and use the soundcard again, just delete the RTSP entries and click Save at the bottom.": "Um alles zu entfernen und die Soundkarte wieder zu verwenden, löschen Sie einfach die RTSP-Einträge und klicken Sie unten auf Speichern.",
-
     "BirdNET-Pi Password": "BirdNET-Pi Passwort",
     "This password will protect your \"Tools\" page and \"Live Audio\" stream.": "Dieses Passwort schützt Ihre \"Werkzeuge\"-Seite und \"Live-Audio\"-Stream.",
     "Do NOT use special characters. Accepted characters: [A-Z0-9a-z]": "Verwenden Sie KEINE Sonderzeichen. Akzeptierte Zeichen: [A-Z0-9a-z]",
     "show": "anzeigen",
-
     "Custom URL": "Benutzerdefinierte URL",
     "When you update the URL below, the web server will reload, so be sure to wait at least 30 seconds and then go to your new URL.": "Wenn Sie die URL unten aktualisieren, wird der Webserver neu geladen. Warten Sie mindestens 30 Sekunden und gehen Sie dann zu Ihrer neuen URL.",
     "BirdNET-Pi URL:": "BirdNET-Pi URL:",
     "The BirdNET-Pi URL is how the main page will be reached. If you want your installation to respond to an IP address, place that here, but be sure to indicate \"http://\".": "Die BirdNET-Pi URL bestimmt, wie die Hauptseite erreicht wird. Wenn Sie möchten, dass Ihre Installation auf eine IP-Adresse reagiert, geben Sie diese hier ein, aber stellen Sie sicher, dass Sie \"http://\" angeben.",
     "Example for IP: http://192.168.0.109": "Beispiel für IP: http://192.168.0.109",
     "Example if you own your own domain: https://virginia.birdnetpi.com": "Beispiel, wenn Sie eine eigene Domain haben: https://virginia.birdnetpi.com",
-
     "Options": "Optionen",
     "This allows you to quiet the display of how many commits your installation is behind by relative to the Github repo. This number appears next to \"Tools\" when you're 50 or more commits behind.": "Damit können Sie die Anzeige ausblenden, wie viele Commits Ihre Installation hinter dem Github-Repo liegt. Diese Zahl erscheint neben \"Werkzeuge\", wenn Sie 50 oder mehr Commits zurückliegen.",
-
     "Automatic Update:": "Automatische Aktualisierung:",
     "Automatic Update": "Automatische Aktualisierung",
     "This configures an automatic update of the installation each Sunday at 3:00 AM but the timing can be changed using crontab.": "Dies konfiguriert eine automatische Aktualisierung der Installation jeden Sonntag um 3:00 Uhr, aber der Zeitpunkt kann mit crontab geändert werden.",
-
     "Minimalist Spectrograms:": "Minimalistische Spektrogramme:",
     "Minimalist Spectrograms": "Minimalistische Spektrogramme",
     "This allows you to remove the axes and labels of the spectrograms that are generated by Sox for each detection for a cleaner appearance.": "Damit können Sie die Achsen und Beschriftungen der von Sox für jede Erkennung generierten Spektrogramme für ein saubereres Erscheinungsbild entfernen.",
-
     "Rare Species Threshold (days):": "Schwellenwert für Seltene Arten (Tage):",
     "This setting defines after how many days since last detection a species is considered rare. Default is 30 days.": "Diese Einstellung definiert, nach wie vielen Tagen seit der letzten Erkennung eine Art als selten gilt. Standard ist 30 Tage.",
-
     "Custom Image": "Benutzerdefiniertes Bild",
     "Custom Image Absolute Path:": "Benutzerdefiniertes Bild Absoluter Pfad:",
     "Custom Image Label:": "Benutzerdefiniertes Bild Beschriftung:",
     "These allow you to show a custom image on the Overview page of your BirdNET-Pi. This can be used to show a dynamically updating picture of your garden, for example.": "Damit können Sie ein benutzerdefiniertes Bild auf der Übersichtsseite Ihres BirdNET-Pi anzeigen. Dies kann z.B. verwendet werden, um ein dynamisch aktualisierendes Bild Ihres Gartens anzuzeigen.",
-
     "BirdNET-Lite Settings": "BirdNET-Lite Einstellungen",
     "Min=0.0, Max=2.9": "Min=0.0, Max=2.9",
     "Min=0.01, Max=0.99": "Min=0.01, Max=0.99",
     "Min=0.5, Max=1.5": "Min=0.5, Max=1.5",
-
     "Accessibility Settings": "Barrierefreiheit Einstellungen",
     "Birdsongs Frequency shifting configuration:": "Vogelgesang Frequenzverschiebung Konfiguration:",
     "This can be useful for hearing impaired people.": "Dies kann für hörgeschädigte Menschen nützlich sein.",
     "Note: audio files will only be pitch shifted when the \"FREQ SHIFT\" button is manually clicked for a detection on the \"Recordings\" page.": "Hinweis: Audiodateien werden nur in der Tonhöhe verschoben, wenn die \"FREQ SHIFT\"-Taste manuell für eine Erkennung auf der \"Aufnahmen\"-Seite geklickt wird.",
     "The frequency shifting can also be activated for the realtime audio livestream, accessible in the SPECTROGRAM tab of BirdNET-Pi. Once it has been activated, it will be made available for the Live Audio feature as well.": "Die Frequenzverschiebung kann auch für den Echtzeit-Audio-Livestream aktiviert werden, zugänglich im SPEKTROGRAMM-Tab von BirdNET-Pi. Einmal aktiviert, wird sie auch für die Live-Audio-Funktion verfügbar.",
     "Livestream is using ffmpeg for streaming its audio data, so the pitch shifter in that case will use this tool too. If you choose sox as the tool for freq shifting recorded audio files, then you must configure both sox and ffmpeg parameters: sox for recordings, and ffmpeg for livestream.": "Livestream verwendet ffmpeg zum Streamen seiner Audiodaten, daher wird der Tonhöhenverschieber in diesem Fall auch dieses Tool verwenden. Wenn Sie sox als Tool für die Frequenzverschiebung aufgenommener Audiodateien wählen, müssen Sie sowohl sox- als auch ffmpeg-Parameter konfigurieren: sox für Aufnahmen und ffmpeg für Livestream.",
-
     "Shifting tool:": "Verschiebungswerkzeug:",
     "Choose the shifting tool here.": "Wählen Sie hier das Verschiebungswerkzeug.",
-
     "Using ffmpeg: e.g. origin=6000, target=4000, performs a shift of 2000 Hz down.": "Mit ffmpeg: z.B. origin=6000, target=4000, führt eine Verschiebung von 2000 Hz nach unten durch.",
     "Origin [Hz]:": "Ursprung [Hz]:",
     "Target [Hz]:": "Ziel [Hz]:",
     "Livestream reconnection delay (in ms):": "Livestream Wiederverbindungsverzögerung (in ms):",
-
     "Using sox: e.g. shiftPitch=-1200 performs a shift of 1 octave down. This value is in 100ths of a semitone.": "Mit sox: z.B. shiftPitch=-1200 führt eine Verschiebung von 1 Oktave nach unten durch. Dieser Wert ist in Hundertsteln eines Halbtons.",
     "Pitch shift:": "Tonhöhenverschiebung:",
-
     "Logging": "Protokollierung",
     "Note: It is recommended that the Log Level be set to Fehler on production systems to keep output manageable, by only reporting errors.": "Hinweis: Es wird empfohlen, die Protokollstufe auf Fehler für Produktionssysteme einzustellen, um die Ausgabe überschaubar zu halten, indem nur Fehler gemeldet werden.",
     "Not all components support the log level option at this time.": "Nicht alle Komponenten unterstützen derzeit die Protokollstufenoption.",
@@ -489,47 +443,59 @@
     "'warning' - Show all warnings and errors. Any message related to possibly incorrect or unexpected events will be shown.": "'warning' - Zeigt alle Warnungen und Fehler an. Alle Nachrichten zu möglicherweise falschen oder unerwarteten Ereignissen werden angezeigt.",
     "'info' - Show informative messages and output during processing. This is in addition to warnings and errors. This will produce more output, use this for initial debugging.": "'info' - Zeigt informative Nachrichten und Ausgaben während der Verarbeitung an. Dies ist zusätzlich zu Warnungen und Fehlern. Dies produziert mehr Ausgabe, verwenden Sie dies für die erste Fehlersuche.",
     "'debug' - Show everything, including debugging information. Produces a lot of output.": "'debug' - Zeigt alles an, einschließlich Debugging-Informationen. Produziert viel Ausgabe.",
-
     "sox": "sox",
     "ffmpeg": "ffmpeg",
     "default": "Standard",
-
     "Note: It is recommended that the Log Level be set to Error on production systems to keep output manageable, by only reporting errors.": "Hinweis: Es wird empfohlen, die Protokollstufe auf Fehler für Produktionssysteme einzustellen, um die Ausgabe überschaubar zu halten, indem nur Fehler gemeldet werden.",
     "error": "Fehler",
     "warning": "Warnung",
     "info": "Info",
     "debug": "Debug",
-
     "Note only the spectrogram and audio files are deleted, the observation data remains in the database.": "Hinweis: Nur die Spektrogramm- und Audiodateien werden gelöscht, die Beobachtungsdaten bleiben in der Datenbank.",
     "The files protected through the": "Die durch das",
     "icon are also not affected.": "Symbol geschützten Dateien werden ebenfalls nicht beeinflusst.",
     "lock": "Schloss",
-
     "Analyze ffmpeg CPU/Memory usage with": "Analysieren Sie die ffmpeg CPU/Speichernutzung mit",
     "or": "oder",
     "if necessary.": "bei Bedarf.",
-
     "Example for IP:": "Beispiel für IP:",
     "Example if you own your own domain:": "Beispiel, wenn Sie eine eigene Domain haben:",
-
     "Using sox: e.g. shiftPitch=-1200 performs a shift of 1 octave down.": "Mit sox: z.B. shiftPitch=-1200 führt eine Verschiebung von 1 Oktave nach unten durch.",
     "This value is in 100ths of a semitone.": "Dieser Wert ist in Hundertsteln eines Halbtons.",
-
     "0%": "0%",
-
     "Note: It is recommended that the Log Level be set to": "Hinweis: Es wird empfohlen, die Protokollstufe einzustellen auf",
     "on production systems to keep output manageable, by only reporting errors.": "für Produktionssysteme, um die Ausgabe überschaubar zu halten, indem nur Fehler gemeldet werden.",
-
     "Warning!": "Warnung!",
     "If this list contains ANY species, the system will ONLY recognize those species. Keep this list EMPTY unless you are ONLY interested in detecting specific species.": "Wenn diese Liste IRGENDWELCHE Arten enthält, wird das System NUR diese Arten erkennen. Halten Sie diese Liste LEER, es sei denn, Sie sind NUR an der Erkennung bestimmter Arten interessiert.",
     "All Species Labels": "Alle Artenbezeichnungen",
-
     "Once the desired species has been highlighted, click it and then click ADD to have it excluded.": "Sobald die gewünschte Art markiert ist, klicken Sie darauf und dann auf HINZUFÜGEN, um sie auszuschließen.",
     "ADD": "HINZUFÜGEN",
-
     "Once the desired species has been highlighted, click it and then click ADD to have it whitelisted. This species will be detected even if below the Species Occurrence Frequency Threshold defined in the settings.": "Sobald die gewünschte Art markiert ist, klicken Sie darauf und dann auf HINZUFÜGEN, um sie auf die Whitelist zu setzen. Diese Art wird erkannt, auch wenn sie unter dem in den Einstellungen definierten Schwellenwert für Artenvorkommenshäufigkeit liegt.",
     "This is not a recommended way of working : it is preferable to first try first both Species Occurrence models (v1 and v2.4).": "Dies ist keine empfohlene Arbeitsweise: Es ist vorzuziehen, zuerst beide Artenvorkommensmodelle (v1 und v2.4) auszuprobieren.",
-    "whitelisted": "auf Whitelist"
+    "whitelisted": "auf Whitelist",
+    "Image link:": "Bildlink:",
+    "Author link:": "Autorlink:",
+    "Enter Checklist Information": "Checklisteninformationen eingeben",
+    "Location Name:": "Ortsname:",
+    "State (2 letter code):": "Bundesland (2 Buchstaben):",
+    "Country (2 letter code):": "Land (2 Buchstaben):",
+    "Protocol:": "Protokoll:",
+    "casual": "zufällig",
+    "stationary": "stationär",
+    "traveling": "unterwegs",
+    "area": "Gebiet",
+    "Number of observers:": "Anzahl Beobachter:",
+    "Distance traveled (miles):": "Zurückgelegte Strecke (Meilen):",
+    "Notes:": "Notizen:",
+    "Success!": "Erfolg!",
+    "Your checklist will start downloading momentarily.": "Ihre Checkliste wird in Kürze heruntergeladen.",
+    "Refer to": "Siehe",
+    "this guide": "diese Anleitung",
+    "Report": "Bericht",
+    "Top 10 Species:": "Top 10 Arten:",
+    "Species Detected for the First Time:": "Erstmals Erkannte Arten:",
+    "* percentages are calculated relative to week": "* Prozentsätze werden relativ zur Woche berechnet",
+    "Recording not available": "Aufnahme nicht verfügbar"
   },
   "patterns": {
     "^(\\d+) detected today!$": "$1 heute erkannt!",

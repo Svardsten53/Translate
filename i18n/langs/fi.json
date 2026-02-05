@@ -21,13 +21,11 @@
     "Links": "Linkit",
     "Live Audio": "Live-ääni",
     "Settings": "Asetukset",
-
     "You cannot listen to the live audio stream": "Et voi kuunnella suoraa äänilähetystä",
     "You cannot edit the settings for this installation": "Et voi muokata tämän asennuksen asetuksia",
     "WARNING: Your latitude and longitude are not set properly. Please do so now in Tools -> Settings.": "VAROITUS: Leveysaste ja pituusaste eivät ole oikein asetettu. Aseta ne nyt kohdassa Työkalut -> Asetukset.",
     "WARNING: Your latitude is not set properly. Please do so now in Tools -> Settings.": "VAROITUS: Leveysaste ei ole oikein asetettu. Aseta se nyt kohdassa Työkalut -> Asetukset.",
     "WARNING: Your longitude is not set properly. Please do so now in Tools -> Settings.": "VAROITUS: Pituusaste ei ole oikein asetettu. Aseta se nyt kohdassa Työkalut -> Asetukset.",
-
     "Total": "Yhteensä",
     "Today": "Tänään",
     "Last Hour": "Viimeinen Tunti",
@@ -58,7 +56,6 @@
     "mo ago": "kuukautta sitten",
     "d ago": "päivää sitten",
     "Open Today's recordings page": "Avaa tämän päivän tallenteet",
-
     "Number of Detections": "Havaintojen Määrä",
     "Unique Species Total": "Uniikit Lajit Yhteensä",
     "Unique Species Today": "Uniikit Lajit Tänään",
@@ -67,7 +64,6 @@
     "Normal view": "Normaali näkymä",
     "Search...": "Hae...",
     "Delete Detection": "Poista Havainto",
-
     "Choose a species to load images from Wikimedia Commons": "Valitse laji ladataksesi kuvia Wikimedia Commonsista",
     "Occurrences:": "Esiintymät:",
     "Max Confidence:": "Maksimi Varmuus:",
@@ -79,14 +75,12 @@
     "Sort by alphabetical": "Lajittele aakkosjärjestykseen",
     "Sort by occurrences": "Lajittele esiintymien mukaan",
     "Sort by confidence": "Lajittele varmuuden mukaan",
-
     "Submit Date": "Lähetä Päivämäärä",
     "Total Detections For The Day": "Päivän Kokonaishavainnot",
     "No Charts for": "Ei Kaavioita kohteelle",
     "No Charts for ": "Ei Kaavioita kohteelle ",
     "No Charts For": "Ei Kaavioita Kohteelle",
     "No Charts For ": "Ei Kaavioita Kohteelle ",
-
     "Sort by date": "Lajittele päivämäärän mukaan",
     "By Species": "Lajin Mukaan",
     "By Date": "Päivämäärän Mukaan",
@@ -105,24 +99,21 @@
     "Change Detection": "Muuta Havaintoa",
     "This file will be deleted when disk space needs to be freed.": "Tämä tiedosto poistetaan kun levytilaa tarvitaan.",
     "(>95% usage).": "(>95% käyttö).",
-
     "Gain:": "Vahvistus:",
     "Compression:": "Pakkaus:",
     "Freq shift:": "Taajuussiirto:",
-
     "Detections": "Havainnot",
     "Hour of Day": "Päivän Tunti",
     "All": "Kaikki",
     "Last Updated:": "Viimeksi Päivitetty:",
-
-    "Single Day View": "Yhden Päivän Näkymä",
-    "Resample Resolution": "Uudelleennäytteistyksen Tarkkuus",
+    "Single Day View": "Yhden päivän näkymä",
+    "Resample Resolution": "Uudelleennäytteistysresoluutio",
     "Raw": "Raaka",
     "15 minutes": "15 minuuttia",
     "Hourly": "Tunneittain",
     "DAILY": "PÄIVITTÄIN",
     "Species in Date Range": "Lajit Päivämäärävälillä",
-    "Total Detect:": "Kokonaishavainnot:",
+    "Total Detect:": "Yhteensä Havaittu:",
     "Download plot as a png": "Lataa kaavio png-muodossa",
     "Zoom": "Zoomaa",
     "Pan": "Panoroi",
@@ -133,7 +124,7 @@
     "Auto scale": "Automaattinen skaalaus",
     "Reset views": "Nollaa näkymät",
     "Produced with Plotly": "Tuotettu Plotlylla",
-    "Confidence Max:": "Maksimi Varmuus:",
+    "Confidence Max:": "Max Varmuus:",
     "Reviewed": "Tarkistettu",
     "Available recordings": "Saatavilla olevat tallenteet",
     "View fullscreen": "Näytä koko näytöllä",
@@ -150,7 +141,6 @@
     "RECORDING NOT AVAILABLE :(": "TALLENNE EI SAATAVILLA :(",
     "Date Range": "Päivämääräväli",
     "Species For": "Lajit kohteelle",
-
     "Program-related links": "Ohjelmaan liittyvät linkit",
     "Program source": "Ohjelman lähdekoodi",
     "Wiki help page": "Wiki-ohjesivusto",
@@ -158,14 +148,12 @@
     "Own links": "Omat linkit",
     "Other BirdNET-Pi": "Muut BirdNET-Pi",
     "Please email if you have any questions or would like to do your own installation": "Lähetä sähköpostia jos sinulla on kysyttävää tai haluat tehdä oman asennuksen",
-
     "Report week": "Raportin viikko",
     "Top 10 Species": "Top 10 Lajit",
     "Species Detected for the First Time": "Ensimmäistä Kertaa Havaitut Lajit",
     "No new species were seen this week": "Tällä viikolla ei havaittu uusia lajeja",
     "No new species were seen this week.": "Tällä viikolla ei havaittu uusia lajeja.",
     "percentages are calculated relative to week": "prosentit lasketaan suhteessa viikkoon",
-
     "System Info": "Järjestelmätiedot",
     "System Controls": "Järjestelmän Hallinta",
     "Services": "Palvelut",
@@ -227,7 +215,6 @@
     "Pause": "Tauko",
     "Mute": "Mykistä",
     "Unmute": "Poista Mykistys",
-
     "Basic Settings": "Perusasetukset",
     "Update Settings": "Päivitä Asetukset",
     "Advanced Settings": "Lisäasetukset",
@@ -287,12 +274,10 @@
     "Debug Mode": "Virheenkorjaustila",
     "Enable debug mode": "Ota virheenkorjaustila käyttöön",
     "Silence Update Indicator": "Piilota Päivitysilmaisin",
-
     "here": "täällä",
     "Optional": "Valinnainen",
     "Species Occurrence Frequency Threshold": "Lajin Esiintymistiheyden Kynnysarvo",
     "more info": "lisätietoja",
-
     "Bird Photo Source": "Lintuvalokuvan Lähde",
     "Image Provider:": "Kuvatarjoaja:",
     "Wikipedia": "Wikipedia",
@@ -300,102 +285,100 @@
     "Flickr API Key:": "Flickr API-avain:",
     "Get your key here.": "Hae avaimesi täältä.",
     "Additional Info": "Lisätietoja",
-
     "Localization": "Lokalisointi",
     "Color scheme": "Värimaailma",
     "Select a Timezone:": "Valitse Aikavyöhyke:",
     "Time and Date": "Aika ja Päivämäärä",
-
     "Notify each new detection": "Ilmoita jokaisesta uudesta havainnosta",
     "Send Test Notification": "Lähetä Testi-ilmoitus",
     "weekly report": "viikkoraportti",
     "Send": "Lähetä",
-
     "Latitude": "Leveysaste",
     "Longitude": "Pituusaste",
     "set in": "asetettu kohdassa",
-
     "Settings successfully updated": "Asetukset päivitetty onnistuneesti",
     "Test notification sent": "Testi-ilmoitus lähetetty",
     "Species list updated": "Lajilista päivitetty",
     "Password changed successfully": "Salasana vaihdettu onnistuneesti",
     "Invalid password": "Virheellinen salasana",
     "Passwords do not match": "Salasanat eivät täsmää",
-
     "New BirdNET-Pi Detection": "Uusi BirdNET-Pi Havainto",
     "was just detected with a confidence of": "havaittiin juuri varmuudella",
-
     "A": "A",
     "Get your coordinates": "Hae koordinaattisi",
-
     "Privacy Threshold": "Yksityisyyskynnys",
     "Value:": "Arvo:",
-
     "Disk Management": "Levynhallinta",
     "Purge": "Tyhjennä",
     "Keep": "Säilytä",
-
     "Audio Card:": "Äänikortti:",
     "Audio Channels:": "Äänikanavat:",
-
     "RTSP Stream:": "RTSP-virta:",
-
     "BirdNET-Pi Password": "BirdNET-Pi Salasana",
     "show": "näytä",
-
     "Custom URL": "Mukautettu URL",
     "BirdNET-Pi URL:": "BirdNET-Pi URL:",
-
     "Options": "Asetukset",
     "Automatic Update:": "Automaattinen Päivitys:",
     "Automatic Update": "Automaattinen Päivitys",
-
     "Minimalist Spectrograms:": "Minimalistiset Spektrogrammit:",
     "Minimalist Spectrograms": "Minimalistiset Spektrogrammit",
-
     "Rare Species Threshold (days):": "Harvinaisen Lajin Kynnysarvo (päiviä):",
-
     "Custom Image": "Mukautettu Kuva",
     "Custom Image Absolute Path:": "Mukautetun Kuvan Absoluuttinen Polku:",
     "Custom Image Label:": "Mukautetun Kuvan Otsikko:",
-
     "BirdNET-Lite Settings": "BirdNET-Lite Asetukset",
     "Min=0.0, Max=2.9": "Min=0.0, Max=2.9",
     "Min=0.01, Max=0.99": "Min=0.01, Max=0.99",
     "Min=0.5, Max=1.5": "Min=0.5, Max=1.5",
-
     "Accessibility Settings": "Esteettömyysasetukset",
-
     "Shifting tool:": "Siirtotyökalu:",
     "Origin [Hz]:": "Alkuperä [Hz]:",
     "Target [Hz]:": "Kohde [Hz]:",
     "Pitch shift:": "Sävelkorkeuden Siirto:",
-
     "Logging": "Lokitus",
     "Birdnet Recording:": "Birdnet-tallennus:",
     "Live Audio Stream:": "Live-äänivirta:",
     "Spectrogram Service:": "Spektrogrammipalvelu:",
     "Errors Only": "Vain Virheet",
-
     "sox": "sox",
     "ffmpeg": "ffmpeg",
     "default": "oletus",
-
     "error": "virhe",
     "warning": "varoitus",
     "info": "info",
     "debug": "debug",
-
     "lock": "lukko",
     "or": "tai",
-
     "0%": "0%",
-
     "Warning!": "Varoitus!",
     "All Species Labels": "Kaikki Lajinimet",
-
     "ADD": "LISÄÄ",
-    "whitelisted": "sallittujen listalla"
+    "whitelisted": "sallittujen listalla",
+    "Image link:": "Kuvalinkki:",
+    "Author link:": "Tekijälinkki:",
+    "Enter Checklist Information": "Syötä tarkistuslistan tiedot",
+    "Location Name:": "Paikan nimi:",
+    "State (2 letter code):": "Lääni (2 kirjainta):",
+    "Country (2 letter code):": "Maa (2 kirjainta):",
+    "Protocol:": "Protokolla:",
+    "casual": "satunnainen",
+    "stationary": "paikallaan",
+    "traveling": "liikkuva",
+    "area": "alue",
+    "Number of observers:": "Havainnoijien määrä:",
+    "Distance traveled (miles):": "Kuljettu matka (mailia):",
+    "Notes:": "Muistiinpanot:",
+    "Success!": "Onnistui!",
+    "Your checklist will start downloading momentarily.": "Tarkistuslistasi lataus alkaa pian.",
+    "Refer to": "Katso",
+    "this guide": "tämä opas",
+    "Report": "Raportti",
+    "Top 10 Species:": "Top 10 Lajit:",
+    "Species Detected for the First Time:": "Ensimmäistä Kertaa Havaitut Lajit:",
+    "* percentages are calculated relative to week": "* prosentit lasketaan suhteessa viikkoon",
+    "Recording not available": "Tallenne ei saatavilla",
+    "Which bird would you like to explore for the dates": "Mitä lintua haluat tutkia päivämäärille"
   },
   "patterns": {
     "^(\\d+) detected today!$": "$1 havaittu tänään!",
