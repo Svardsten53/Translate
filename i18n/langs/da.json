@@ -21,13 +21,11 @@
     "Links": "Links",
     "Live Audio": "Live Lyd",
     "Settings": "Indstillinger",
-
     "You cannot listen to the live audio stream": "Du kan ikke lytte til live lydstrømmen",
     "You cannot edit the settings for this installation": "Du kan ikke redigere indstillingerne for denne installation",
     "WARNING: Your latitude and longitude are not set properly. Please do so now in Tools -> Settings.": "ADVARSEL: Din breddegrad og længdegrad er ikke korrekt indstillet. Gør det nu under Værktøjer -> Indstillinger.",
     "WARNING: Your latitude is not set properly. Please do so now in Tools -> Settings.": "ADVARSEL: Din breddegrad er ikke korrekt indstillet. Gør det nu under Værktøjer -> Indstillinger.",
     "WARNING: Your longitude is not set properly. Please do so now in Tools -> Settings.": "ADVARSEL: Din længdegrad er ikke korrekt indstillet. Gør det nu under Værktøjer -> Indstillinger.",
-
     "Total": "Total",
     "Today": "I dag",
     "Last Hour": "Sidste Time",
@@ -58,7 +56,6 @@
     "mo ago": "måneder siden",
     "d ago": "dage siden",
     "Open Today's recordings page": "Åbn dagens optagelsesside",
-
     "Number of Detections": "Antal Registreringer",
     "Unique Species Total": "Unikke Arter Total",
     "Unique Species Today": "Unikke Arter I dag",
@@ -67,7 +64,6 @@
     "Normal view": "Normal visning",
     "Search...": "Søg...",
     "Delete Detection": "Slet Registrering",
-
     "Choose a species to load images from Wikimedia Commons": "Vælg en art for at indlæse billeder fra Wikimedia Commons",
     "Occurrences:": "Forekomster:",
     "Max Confidence:": "Maksimal Sikkerhed:",
@@ -79,14 +75,12 @@
     "Sort by alphabetical": "Sorter alfabetisk",
     "Sort by occurrences": "Sorter efter forekomster",
     "Sort by confidence": "Sorter efter sikkerhed",
-
     "Submit Date": "Indsend Dato",
     "Total Detections For The Day": "Totale Registreringer For Dagen",
     "No Charts for": "Ingen Diagrammer for",
     "No Charts for ": "Ingen Diagrammer for ",
     "No Charts For": "Ingen Diagrammer For",
     "No Charts For ": "Ingen Diagrammer For ",
-
     "Sort by date": "Sorter efter dato",
     "By Species": "Efter Art",
     "By Date": "Efter Dato",
@@ -105,16 +99,13 @@
     "Change Detection": "Ændr Registrering",
     "This file will be deleted when disk space needs to be freed.": "Denne fil vil blive slettet når diskplads skal frigøres.",
     "(>95% usage).": "(>95% brug).",
-
     "Gain:": "Forstærkning:",
     "Compression:": "Kompression:",
     "Freq shift:": "Frekvensforskydning:",
-
     "Detections": "Registreringer",
     "Hour of Day": "Time på Dagen",
     "All": "Alle",
     "Last Updated:": "Sidst Opdateret:",
-
     "Single Day View": "Enkelt Dags Visning",
     "Resample Resolution": "Gensamplingsopløsning",
     "Raw": "Rå",
@@ -150,7 +141,6 @@
     "RECORDING NOT AVAILABLE :(": "OPTAGELSE IKKE TILGÆNGELIG :(",
     "Date Range": "Datointerval",
     "Species For": "Arter for",
-
     "Program-related links": "Programrelaterede links",
     "Program source": "Programkildekode",
     "Wiki help page": "Wiki hjælpeside",
@@ -158,14 +148,12 @@
     "Own links": "Egne links",
     "Other BirdNET-Pi": "Andre BirdNET-Pi",
     "Please email if you have any questions or would like to do your own installation": "Send venligst e-mail hvis du har spørgsmål eller vil lave din egen installation",
-
     "Report week": "Rapportuge",
     "Top 10 Species": "Top 10 Arter",
     "Species Detected for the First Time": "Arter Registreret for Første Gang",
     "No new species were seen this week": "Ingen nye arter blev set denne uge",
     "No new species were seen this week.": "Ingen nye arter blev set denne uge.",
     "percentages are calculated relative to week": "procenter er beregnet i forhold til ugen",
-
     "System Info": "Systeminfo",
     "System Controls": "Systemstyring",
     "Services": "Tjenester",
@@ -227,7 +215,6 @@
     "Pause": "Pause",
     "Mute": "Lydløs",
     "Unmute": "Lyd Til",
-
     "Basic Settings": "Grundlæggende Indstillinger",
     "Update Settings": "Opdater Indstillinger",
     "Advanced Settings": "Avancerede Indstillinger",
@@ -287,12 +274,10 @@
     "Debug Mode": "Fejlfindingstilstand",
     "Enable debug mode": "Aktiver fejlfindingstilstand",
     "Silence Update Indicator": "Skjul Opdateringsindikator",
-
     "here": "her",
     "Optional": "Valgfri",
     "Species Occurrence Frequency Threshold": "Artsforekoms Frekvensstærskel",
     "more info": "mere info",
-
     "Bird Photo Source": "Fuglefoto Kilde",
     "Image Provider:": "Billedleverandør:",
     "Wikipedia": "Wikipedia",
@@ -300,102 +285,100 @@
     "Flickr API Key:": "Flickr API-nøgle:",
     "Get your key here.": "Hent din nøgle her.",
     "Additional Info": "Yderligere Info",
-
     "Localization": "Lokalisering",
     "Color scheme": "Farveskema",
     "Select a Timezone:": "Vælg en Tidszone:",
     "Time and Date": "Tid og Dato",
-
     "Notify each new detection": "Notificer ved hver ny registrering",
     "Send Test Notification": "Send Testnotifikation",
     "weekly report": "ugerapport",
     "Send": "Send",
-
     "Latitude": "Breddegrad",
     "Longitude": "Længdegrad",
     "set in": "indstillet i",
-
     "Settings successfully updated": "Indstillinger opdateret succesfuldt",
     "Test notification sent": "Testnotifikation sendt",
     "Species list updated": "Artsliste opdateret",
     "Password changed successfully": "Adgangskode ændret succesfuldt",
     "Invalid password": "Ugyldig adgangskode",
     "Passwords do not match": "Adgangskoderne matcher ikke",
-
     "New BirdNET-Pi Detection": "Ny BirdNET-Pi Registrering",
     "was just detected with a confidence of": "blev lige registreret med en sikkerhed på",
-
     "A": "En",
     "Get your coordinates": "Hent dine koordinater",
-
     "Privacy Threshold": "Privathedstærskel",
     "Value:": "Værdi:",
-
     "Disk Management": "Diskstyring",
     "Purge": "Rens",
     "Keep": "Behold",
-
     "Audio Card:": "Lydkort:",
     "Audio Channels:": "Lydkanaler:",
-
     "RTSP Stream:": "RTSP-strøm:",
-
     "BirdNET-Pi Password": "BirdNET-Pi Adgangskode",
     "show": "vis",
-
     "Custom URL": "Tilpasset URL",
     "BirdNET-Pi URL:": "BirdNET-Pi URL:",
-
     "Options": "Indstillinger",
     "Automatic Update:": "Automatisk Opdatering:",
     "Automatic Update": "Automatisk Opdatering",
-
     "Minimalist Spectrograms:": "Minimalistiske Spektrogrammer:",
     "Minimalist Spectrograms": "Minimalistiske Spektrogrammer",
-
     "Rare Species Threshold (days):": "Sjælden Art Tærskel (dage):",
-
     "Custom Image": "Tilpasset Billede",
     "Custom Image Absolute Path:": "Tilpasset Billede Absolut Sti:",
     "Custom Image Label:": "Tilpasset Billede Etiket:",
-
     "BirdNET-Lite Settings": "BirdNET-Lite Indstillinger",
     "Min=0.0, Max=2.9": "Min=0.0, Max=2.9",
     "Min=0.01, Max=0.99": "Min=0.01, Max=0.99",
     "Min=0.5, Max=1.5": "Min=0.5, Max=1.5",
-
     "Accessibility Settings": "Tilgængelighedsindstillinger",
-
     "Shifting tool:": "Forskydningsværktøj:",
     "Origin [Hz]:": "Oprindelse [Hz]:",
     "Target [Hz]:": "Mål [Hz]:",
     "Pitch shift:": "Tonehøjdeforskydning:",
-
     "Logging": "Logning",
     "Birdnet Recording:": "Birdnet Optagelse:",
     "Live Audio Stream:": "Live Lydstrøm:",
     "Spectrogram Service:": "Spektrogramtjeneste:",
     "Errors Only": "Kun Fejl",
-
     "sox": "sox",
     "ffmpeg": "ffmpeg",
     "default": "standard",
-
     "error": "fejl",
     "warning": "advarsel",
     "info": "info",
     "debug": "debug",
-
     "lock": "lås",
     "or": "eller",
-
     "0%": "0%",
-
     "Warning!": "Advarsel!",
     "All Species Labels": "Alle Artsetiketter",
-
     "ADD": "TILFØJ",
-    "whitelisted": "hvidlistet"
+    "whitelisted": "hvidlistet",
+    "Image link:": "Image link:",
+    "Author link:": "Author link:",
+    "Enter Checklist Information": "Enter Checklist Information",
+    "Location Name:": "Location Name:",
+    "State (2 letter code):": "State (2 letter code):",
+    "Country (2 letter code):": "Country (2 letter code):",
+    "Protocol:": "Protocol:",
+    "casual": "casual",
+    "stationary": "stationary",
+    "traveling": "traveling",
+    "area": "area",
+    "Number of observers:": "Number of observers:",
+    "Distance traveled (miles):": "Distance traveled (miles):",
+    "Notes:": "Notes:",
+    "Success!": "Success!",
+    "Your checklist will start downloading momentarily.": "Your checklist will start downloading momentarily.",
+    "Refer to": "Refer to",
+    "this guide": "this guide",
+    "Report": "Report",
+    "Top 10 Species:": "Top 10 Species:",
+    "Species Detected for the First Time:": "Species Detected for the First Time:",
+    "* percentages are calculated relative to week": "* percentages are calculated relative to week",
+    "Recording not available": "Recording not available",
+    "Which bird would you like to explore for the dates": "Which bird would you like to explore for the dates"
   },
   "patterns": {
     "^(\\d+) detected today!$": "$1 registreret i dag!",

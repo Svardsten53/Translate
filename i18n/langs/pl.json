@@ -21,13 +21,11 @@
     "Links": "Linki",
     "Live Audio": "Audio na Żywo",
     "Settings": "Ustawienia",
-
     "You cannot listen to the live audio stream": "Nie możesz słuchać transmisji audio na żywo",
     "You cannot edit the settings for this installation": "Nie możesz edytować ustawień tej instalacji",
     "WARNING: Your latitude and longitude are not set properly. Please do so now in Tools -> Settings.": "OSTRZEŻENIE: Twoja szerokość i długość geograficzna nie są prawidłowo ustawione. Zrób to teraz w Narzędzia -> Ustawienia.",
     "WARNING: Your latitude is not set properly. Please do so now in Tools -> Settings.": "OSTRZEŻENIE: Twoja szerokość geograficzna nie jest prawidłowo ustawiona. Zrób to teraz w Narzędzia -> Ustawienia.",
     "WARNING: Your longitude is not set properly. Please do so now in Tools -> Settings.": "OSTRZEŻENIE: Twoja długość geograficzna nie jest prawidłowo ustawiona. Zrób to teraz w Narzędzia -> Ustawienia.",
-
     "Total": "Razem",
     "Today": "Dzisiaj",
     "Last Hour": "Ostatnia Godzina",
@@ -58,7 +56,6 @@
     "mo ago": "miesięcy temu",
     "d ago": "dni temu",
     "Open Today's recordings page": "Otwórz stronę dzisiejszych nagrań",
-
     "Number of Detections": "Liczba Wykryć",
     "Unique Species Total": "Unikalne Gatunki Razem",
     "Unique Species Today": "Unikalne Gatunki Dzisiaj",
@@ -67,7 +64,6 @@
     "Normal view": "Normalny widok",
     "Search...": "Szukaj...",
     "Delete Detection": "Usuń Wykrycie",
-
     "Choose a species to load images from Wikimedia Commons": "Wybierz gatunek, aby załadować obrazy z Wikimedia Commons",
     "Occurrences:": "Wystąpienia:",
     "Max Confidence:": "Maksymalna Pewność:",
@@ -79,14 +75,12 @@
     "Sort by alphabetical": "Sortuj alfabetycznie",
     "Sort by occurrences": "Sortuj według wystąpień",
     "Sort by confidence": "Sortuj według pewności",
-
     "Submit Date": "Wyślij Datę",
     "Total Detections For The Day": "Całkowite Wykrycia Dnia",
     "No Charts for": "Brak Wykresów dla",
     "No Charts for ": "Brak Wykresów dla ",
     "No Charts For": "Brak Wykresów Dla",
     "No Charts For ": "Brak Wykresów Dla ",
-
     "Sort by date": "Sortuj według daty",
     "By Species": "Według Gatunku",
     "By Date": "Według Daty",
@@ -108,16 +102,13 @@
     "Change Detection": "Zmień Wykrycie",
     "This file will be deleted when disk space needs to be freed.": "Ten plik zostanie usunięty, gdy trzeba będzie zwolnić miejsce na dysku.",
     "(>95% usage).": "(>95% wykorzystania).",
-
     "Gain:": "Wzmocnienie:",
     "Compression:": "Kompresja:",
     "Freq shift:": "Przesunięcie częst.:",
-
     "Detections": "Wykrycia",
     "Hour of Day": "Godzina Dnia",
     "All": "Wszystkie",
     "Last Updated:": "Ostatnia Aktualizacja:",
-
     "Single Day View": "Widok Pojedynczego Dnia",
     "Resample Resolution": "Rozdzielczość Resamplingu",
     "Select resolution for species - DAILY provides time series": "Wybierz rozdzielczość dla gatunków - DZIENNA zapewnia serie czasowe",
@@ -158,7 +149,6 @@
     "Date Range": "Zakres Dat",
     "Select Color Pallet for Daily Detections": "Wybierz Paletę Kolorów dla Dziennych Wykryć",
     "Species For": "Gatunki dla",
-
     "Program-related links": "Linki związane z programem",
     "Program source": "Kod źródłowy programu",
     "Wiki help page": "Strona pomocy Wiki",
@@ -166,14 +156,12 @@
     "Own links": "Własne linki",
     "Other BirdNET-Pi": "Inne BirdNET-Pi",
     "Please email if you have any questions or would like to do your own installation": "Wyślij e-mail, jeśli masz pytania lub chcesz wykonać własną instalację",
-
     "Report week": "Tydzień raportu",
     "Top 10 Species": "Top 10 Gatunków",
     "Species Detected for the First Time": "Gatunki Wykryte po Raz Pierwszy",
     "No new species were seen this week": "W tym tygodniu nie zaobserwowano nowych gatunków",
     "No new species were seen this week.": "W tym tygodniu nie zaobserwowano nowych gatunków.",
     "percentages are calculated relative to week": "procenty są obliczane względem tygodnia",
-
     "System Info": "Informacje o Systemie",
     "System Controls": "Sterowanie Systemem",
     "Services": "Usługi",
@@ -235,7 +223,6 @@
     "Pause": "Pauza",
     "Mute": "Wycisz",
     "Unmute": "Włącz dźwięk",
-
     "Basic Settings": "Podstawowe Ustawienia",
     "Update Settings": "Aktualizuj Ustawienia",
     "Advanced Settings": "Zaawansowane Ustawienia",
@@ -303,12 +290,10 @@
     "Enable debug mode": "Włącz tryb debugowania",
     "Silence Update Indicator": "Ukryj Wskaźnik Aktualizacji",
     "This setting will hide the update indicator": "To ustawienie ukryje wskaźnik aktualizacji",
-
     "here": "tutaj",
     "Optional": "Opcjonalnie",
     "Species Occurrence Frequency Threshold": "Próg Częstotliwości Występowania Gatunków",
     "more info": "więcej info",
-
     "Bird Photo Source": "Źródło Zdjęć Ptaków",
     "Image Provider:": "Dostawca Obrazów:",
     "Wikipedia": "Wikipedia",
@@ -316,102 +301,99 @@
     "Flickr API Key:": "Klucz API Flickr:",
     "Get your key here.": "Pobierz swój klucz tutaj.",
     "Additional Info": "Dodatkowe Informacje",
-
     "Localization": "Lokalizacja",
     "Color scheme": "Schemat kolorów",
     "Select a Timezone:": "Wybierz Strefę Czasową:",
     "Time and Date": "Czas i Data",
-
     "Notify each new detection": "Powiadamiaj o każdym nowym wykryciu",
     "Send Test Notification": "Wyślij Testowe Powiadomienie",
     "weekly report": "raport tygodniowy",
     "Send": "Wyślij",
-
     "Latitude": "Szerokość",
     "Longitude": "Długość",
     "set in": "ustawione w",
-
     "Settings successfully updated": "Ustawienia zaktualizowane pomyślnie",
     "Test notification sent": "Wysłano testowe powiadomienie",
     "Species list updated": "Lista gatunków zaktualizowana",
     "Password changed successfully": "Hasło zmienione pomyślnie",
     "Invalid password": "Nieprawidłowe hasło",
     "Passwords do not match": "Hasła nie pasują",
-
     "New BirdNET-Pi Detection": "Nowe Wykrycie BirdNET-Pi",
     "was just detected with a confidence of": "zostało właśnie wykryte z pewnością",
-
     "A": "A",
     "Get your coordinates": "Pobierz swoje współrzędne",
-
     "Privacy Threshold": "Próg Prywatności",
     "Value:": "Wartość:",
-
     "Disk Management": "Zarządzanie Dyskiem",
     "Purge": "Wyczyść",
     "Keep": "Zachowaj",
-
     "Audio Card:": "Karta Dźwiękowa:",
     "Audio Channels:": "Kanały Audio:",
-
     "RTSP Stream:": "Strumień RTSP:",
-
     "BirdNET-Pi Password": "Hasło BirdNET-Pi",
     "show": "pokaż",
-
     "Custom URL": "Własny URL",
     "BirdNET-Pi URL:": "URL BirdNET-Pi:",
-
     "Options": "Opcje",
     "Automatic Update:": "Automatyczna Aktualizacja:",
     "Automatic Update": "Automatyczna Aktualizacja",
-
     "Minimalist Spectrograms:": "Minimalistyczne Spektrogramy:",
     "Minimalist Spectrograms": "Minimalistyczne Spektrogramy",
-
     "Rare Species Threshold (days):": "Próg Rzadkich Gatunków (dni):",
-
     "Custom Image": "Własny Obraz",
     "Custom Image Absolute Path:": "Ścieżka Absolutna Własnego Obrazu:",
     "Custom Image Label:": "Etykieta Własnego Obrazu:",
-
     "BirdNET-Lite Settings": "Ustawienia BirdNET-Lite",
     "Min=0.0, Max=2.9": "Min=0.0, Max=2.9",
     "Min=0.01, Max=0.99": "Min=0.01, Max=0.99",
     "Min=0.5, Max=1.5": "Min=0.5, Max=1.5",
-
     "Accessibility Settings": "Ustawienia Dostępności",
-
     "Shifting tool:": "Narzędzie przesuwania:",
     "Origin [Hz]:": "Początek [Hz]:",
     "Target [Hz]:": "Cel [Hz]:",
     "Pitch shift:": "Przesunięcie tonu:",
-
     "Logging": "Logowanie",
     "Birdnet Recording:": "Nagrywanie Birdnet:",
     "Live Audio Stream:": "Strumień Audio na Żywo:",
     "Spectrogram Service:": "Usługa Spektrogramu:",
     "Errors Only": "Tylko Błędy",
-
     "sox": "sox",
     "ffmpeg": "ffmpeg",
     "default": "domyślny",
-
     "error": "błąd",
     "warning": "ostrzeżenie",
     "info": "info",
     "debug": "debug",
-
     "lock": "blokada",
     "or": "lub",
-
     "0%": "0%",
-
     "Warning!": "Ostrzeżenie!",
     "All Species Labels": "Wszystkie Etykiety Gatunków",
-
     "ADD": "DODAJ",
-    "whitelisted": "na białej liście"
+    "whitelisted": "na białej liście",
+    "Image link:": "Image link:",
+    "Author link:": "Author link:",
+    "Enter Checklist Information": "Enter Checklist Information",
+    "Location Name:": "Location Name:",
+    "State (2 letter code):": "State (2 letter code):",
+    "Country (2 letter code):": "Country (2 letter code):",
+    "Protocol:": "Protocol:",
+    "casual": "casual",
+    "stationary": "stationary",
+    "traveling": "traveling",
+    "area": "area",
+    "Number of observers:": "Number of observers:",
+    "Distance traveled (miles):": "Distance traveled (miles):",
+    "Notes:": "Notes:",
+    "Success!": "Success!",
+    "Your checklist will start downloading momentarily.": "Your checklist will start downloading momentarily.",
+    "Refer to": "Refer to",
+    "this guide": "this guide",
+    "Report": "Report",
+    "Top 10 Species:": "Top 10 Species:",
+    "Species Detected for the First Time:": "Species Detected for the First Time:",
+    "* percentages are calculated relative to week": "* percentages are calculated relative to week",
+    "Recording not available": "Recording not available"
   },
   "patterns": {
     "^(\\d+) detected today!$": "$1 wykrytych dzisiaj!",
