@@ -497,7 +497,12 @@
     "* percentages are calculated relative to week": "* les pourcentages sont calculés par rapport à la semaine",
     "Recording not available": "Enregistrement non disponible",
     "new species detected today!": "nouvelles espèces détectées aujourd'hui!",
-    "rare species detected today!": "espèces rares détectées aujourd'hui!"
+    "rare species detected today!": "espèces rares détectées aujourd'hui!",
+    "is a weather map for bird sounds. Stations around the world supply audio and video streams to BirdWeather where they are then analyzed by BirdNET and compared to eBird Grid data. BirdWeather catalogues the bird audio and spectrogram visualizations so that you can listen to, view, and read about birds throughout the world.": "est une carte météo pour les sons d'oiseaux. Des stations du monde entier fournissent des flux audio et vidéo à BirdWeather où ils sont ensuite analysés par BirdNET et comparés aux données eBird Grid. BirdWeather catalogue l'audio des oiseaux et les visualisations de spectrogrammes afin que vous puissiez écouter, voir et lire sur les oiseaux du monde entier.",
+    "Stations around the world supply audio and video streams to BirdWeather where they are then analyzed by BirdNET and compared to eBird Grid data. BirdWeather catalogues the bird audio and spectrogram visualizations so that you can listen to, view, and read about birds throughout the world.": "Des stations du monde entier fournissent des flux audio et vidéo à BirdWeather où ils sont ensuite analysés par BirdNET et comparés aux données eBird Grid. BirdWeather catalogue l'audio des oiseaux et les visualisations de spectrogrammes afin que vous puissiez écouter, voir et lire sur les oiseaux du monde entier.",
+    "Note: It is recommended that the Log Level be set to Fout on production systems to keep output manageable, by only reporting errors.": "Note: Il est recommandé de définir le niveau de journal sur Erreur sur les systèmes de production pour garder la sortie gérable, en ne rapportant que les erreurs.",
+    "for information on how to import it in eBird. The checklist file format is: 'eBird Record Format (Extended)'.": "pour des informations sur la façon de l'importer dans eBird. Le format du fichier de liste est: 'eBird Record Format (Extended)'.",
+    "Note: Only detections with a confidence > 0.75 were included, and entries have been limited to 1 detection per hour per species, to comply with eBird's data quality guidelines.": "Note: Seules les détections avec une confiance > 0.75 ont été incluses, et les entrées ont été limitées à 1 détection par heure par espèce, pour se conformer aux directives de qualité des données d'eBird."
   },
   "patterns": {
     "^(\\d+) detected today!$": "$1 détectées aujourd'hui!",
