@@ -572,16 +572,35 @@
     "Report": "Rapport",
     "Top 10 Species:": "Top 10 Soorten:",
     "Species Detected for the First Time:": "Voor het Eerst Gedetecteerde Soorten:",
-    "* percentages are calculated relative to week": "* percentages zijn berekend ten opzichte van week"
+    "* percentages are calculated relative to week": "* percentages zijn berekend ten opzichte van week",
+
+    "new species detected today!": "nieuwe soorten vandaag gedetecteerd!",
+    "rare species detected today!": "zeldzame soorten vandaag gedetecteerd!",
+
+    "If a Human is predicted anywhere among the top 10 predictions, the sample will be considered of human origin and no data will be collected. Start with 1% and move up as needed.": "Als een mens wordt voorspeld in de top 10 voorspellingen, wordt het sample als menselijk beschouwd en worden er geen gegevens verzameld. Begin met 1% en verhoog indien nodig.",
+    "Note only the spectrogram and audio files are deleted, the observation data remains in the database. The files protected through the \"lock\" icon are also not affected.": "Let op: alleen de spectrogram- en audiobestanden worden verwijderd, de observatiegegevens blijven in de database. De bestanden die beveiligd zijn via het \"slot\" icoon worden ook niet beïnvloed.",
+    "Analyze ffmpeg CPU/Memory usage with top or htop if necessary.": "Analyseer ffmpeg CPU/Geheugen gebruik met top of htop indien nodig.",
+    "The BirdNET-Pi URL is how the main page will be reached. If you want your installation to respond to an IP address, place that here, but be sure to indicate \"http://\".": "De BirdNET-Pi URL bepaalt hoe de hoofdpagina wordt bereikt. Als je wilt dat je installatie reageert op een IP-adres, plaats dit hier, maar zorg ervoor dat je \"http://\" aangeeft.",
+    "Using ffmpeg: e.g. origin=6000, target=4000, performs a shift of 2000 Hz down.": "Met ffmpeg: bijv. origin=6000, target=4000, voert een verschuiving van 2000 Hz omlaag uit.",
+    "Using sox: e.g. shiftPitch=-1200 performs a shift of 1 octave down. This value is in 100ths of a semitone.": "Met sox: bijv. shiftPitch=-1200 voert een verschuiving van 1 octaaf omlaag uit. Deze waarde is in honderdsten van een halve toon.",
+    "Note: It is recommended that the Log Level be set to Error on production systems to keep output manageable, by only reporting errors.": "Let op: Het wordt aanbevolen om het Logniveau op Fout te zetten op productiesystemen om de output beheersbaar te houden, door alleen fouten te rapporteren.",
+    "'error' - Show all errors, including ones which can be recovered from. This is the default value.": "'error' - Toon alle fouten, inclusief herstelbare. Dit is de standaardwaarde.",
+    "'warning' - Show all warnings and errors. Any message related to possibly incorrect or unexpected events will be shown.": "'warning' - Toon alle waarschuwingen en fouten. Elk bericht over mogelijk onjuiste of onverwachte gebeurtenissen wordt getoond.",
+    "'info' - Show informative messages and output during processing. This is in addition to warnings and errors. This will produce more output, use this for initial debugging.": "'info' - Toon informatieve berichten en output tijdens verwerking. Dit is naast waarschuwingen en fouten. Dit produceert meer output, gebruik dit voor eerste debugging.",
+    "'debug' - Show everything, including debugging information. Produces a lot of output.": "'debug' - Toon alles, inclusief debuginformatie. Produceert veel output."
   },
   "patterns": {
     "^(\\d+) detected today!$": "$1 vandaag gedetecteerd!",
+    "^(\\d+) new species detected today!$": "$1 nieuwe soorten vandaag gedetecteerd!",
+    "^(\\d+) rare species detected today!$": "$1 zeldzame soorten vandaag gedetecteerd!",
+    "^Week (\\d+) Report$": "Week $1 Rapport",
     "^Detections Over (\\d+)d$": "Detecties afgelopen $1 dagen",
     "^(\\d+) minutes? ago$": "$1 minuten geleden",
     "^(\\d+) hours? ago$": "$1 uren geleden",
     "^(\\d+) days? ago$": "$1 dagen geleden",
     "^(\\d+) mo ago$": "$1 maanden geleden",
     "^(\\d+) d ago$": "$1 dagen geleden",
-    "^No Charts [Ff]or (.+)$": "Geen Grafieken voor $1"
+    "^No Charts [Ff]or (.+)$": "Geen Grafieken voor $1",
+    "^\\* percentages are calculated relative to week (\\d+)$": "* percentages zijn berekend ten opzichte van week $1"
   }
 }
