@@ -366,6 +366,8 @@
     "Privacy Threshold": "Integritetströskelvärde",
     "Value:": "Värde:",
     "If a Human is predicted anywhere among the top 10 predictions, the sample will be considered of human origin and no data will be collected. Start with 1% and move up as needed.": "Om en människa förutspås någonstans bland de 10 främsta förutsägelserna, kommer urvalet att anses vara av mänskligt ursprung och ingen data kommer att samlas in. Börja med 1 % och öka efter behov.",
+    "Note only the spectrogram and audio files are deleted, the observation data remains in the database. The files protected through the "lock" icon are also not affected.": "Observera att endast spektrogrammet och ljudfilerna raderas, observationsdata finns kvar i databasen. Filerna som skyddas med "lås"-ikonen påverkas inte heller.",
+    "The BirdNET-Pi URL is how the main page will be reached. If you want your installation to respond to an IP address, place that here, but be sure to indicate": "BirdNET-Pi-URL:en är hur huvudsidan nås. Om du vill att din installation ska svara på en IP-adress, placera den här, men se till att ange",
     "Disk Management": "Diskhantering",
     "Purge": "Rensa",
     "Keep": "Behåll",
